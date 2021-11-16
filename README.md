@@ -1,2 +1,3 @@
-# ajinkya-k.github.io
-# This is my personal blog
+# Readme
+
+This is the code for my website
