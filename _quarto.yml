@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+  resources: 
+    - "files/*"
+    - ".nojekyll"
+
+website:
+  title: "Ajinkya Kokandakar"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme:
+      light: [litera, ember.scss]
+      dark: [litera, theme-dark.scss, ember.scss]
+    css: styles.css
+    toc: true
+
+
+

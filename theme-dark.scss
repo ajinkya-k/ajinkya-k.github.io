@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: #181818;
+$navbar-bg: #181818;
+$body-color: lightgray;
+$link-color: #75AADB;
+//$link-color: #FFFFFF;
+
+// Code blocks
+$code-block-bg-alpha: -.8;
+
+/*-- scss:rules --*/
+h2 {
+    border-bottom-color: lightgray;
+}
