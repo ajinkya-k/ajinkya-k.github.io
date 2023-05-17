@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "GitHub\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Google Scholar\n  \n  \n    \n     CV\n  \n\n  \n  \nAjinkya Kokandakar Graduate Student (Ph.D. Statistics) The University of Wisconsin - Madison ajinkya@stat.wisc.edu\nI am a Ph.D. student in the Department of Statistics at The University of Wisconsin—Madison advised by Dr. Sameer Deshpande. I am pursuing research in causal inference, machine learning and decision-making. Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference for social networks. Prior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani in India."
+  },
+  {
+    "objectID": "index.html#preprints",
+    "href": "index.html#preprints",
+    "title": "About Me",
+    "section": "Preprints",
+    "text": "Preprints\n\nPre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood (Nov 2022)  Ajinkya H. Kokandakar, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small  arXiv:2211.02104  [preprint] [code]"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "About Me",
+    "section": "Publications",
+    "text": "Publications\n\nAjinkya H. Kokandakar, Hyunseung Kang, Sameer K. Deshpande, (2023). “Bayesian causal forests and the 2022 ACIC Data Challenge: scalability and sensitivity.” Observational Studies, 9(3), 29-41. [paper] [preprint] [code]\nJagat Sesh Challa, Poonam Goyal, Ajinkya Kokandakar, Dhananjay Mantri, Pranet Verma, Sundar Balasubramaniam & Navneet Goyal (2022). “Anytime clustering of data streams while handling noise and concept drift.” Journal of Experimental & Theoretical Artificial Intelligence, 34(3), 399-429, DOI: 10.1080/0952813X.2021.1882001 [paper]"
+  },
+  {
+    "objectID": "index.html#research-experience",
+    "href": "index.html#research-experience",
+    "title": "About Me",
+    "section": "Research Experience",
+    "text": "Research Experience\nUniversity of Wisconsin – Madison Research Assistant\n\nDepartment of Statistics, Advisors: Prof Sameer Deshpande and Prof Keith Levin (May 2022 – Aug 2022)\nDepartment of Biostatistics and Medical Informatics, Advisors: Prof Menggang Yu and Prof Guanhua Chen (June 2020 – Dec 2021)\n\nDuke University Research Assistant\n\nThe Fuqua School of Business Advisor: Prof Giuseppe Lopomo (June 2019 - May 2020)\nDepartment of Economics Advisor: Prof Matt Masten (June 2019 - May 2020)\nDepartment of Economics Advisor: Prof Arjada Bardhi (Jan 2019 - May 2019)\n\nBirla Institute of Technology and Science, Pilani\n\nUndergraduate Scholar, Advisor: Prof Shan Sundar Balasubramaniam ADAPT Lab, BITS Pilani (Jan 2017 - Dec 2017)"
+  },
+  {
+    "objectID": "index.html#teaching-experience",
+    "href": "index.html#teaching-experience",
+    "title": "About Me",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\nUniversity of Wisconsin – Madison Teaching Assistant, Department of Statistics\n\nSTAT 240: Data Science Modeling I (Fall 2022)\nSTAT 371: Introductory Applied Statistics for the Life Sciences (Spring 2022)\n\nDuke University Teaching Assistant, Department of Computer Science\n\nCOMPSCI 370: Introduction to Artificial Intelligence (Spring 2020)\nCOMPSCI 201: Algorithms and Data Structures (Spring 2019)\n\nBirla Institute of Technology and Science, Pilani Undergraduate Teaching Assistant\n\nECON F211: Principles of Economics\nECON F212: Fundamentals of Finance and Accounting\nECON F412: Securities Analysis and Portfolio Management\nCS F211: Data Structures and Algorithms"
+  }
+]
