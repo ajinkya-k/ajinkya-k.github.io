@@ -33,7 +33,7 @@ Statistics Blogs:
 
 - [Andrew Heiss][ah]
 - [Alex Hayes][apg]
-- [Dan Simpson](https://dansblog.netlify.app/) especially this raucously funny post about [gaussian processes](https://dansblog.netlify.app/posts/2021-11-03-yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness/).
+- [Dan Simpson](https://dansblog.netlify.app) especially this raucously funny post about [gaussian processes][dsgp].
 - [Andrew Gelman et al.](https://statmodeling.stat.columbia.edu/)
 - [Kat Hoffman](https://www.khstats.com/), notably the SuperLearner [explainer](https://www.khstats.com/blog/sl/superlearning/), and the [series on TMLE](https://www.khstats.com/blog/tmle/tutorial/)
 
@@ -49,3 +49,4 @@ They are incomplete and I have added little exposition if any. I plan to update 
 
 [ah]: https://www.andrewheiss.com/blog/
 [apg]: https://www.alexpghayes.com/
+[dsgp]: https://dansblog.netlify.app/posts/2021-11-03-yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness/yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness.html
