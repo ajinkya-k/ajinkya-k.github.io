@@ -9,8 +9,12 @@ website:
   title: "Ajinkya Kokandakar"
   navbar:
     right:
-      - href: index.qmd
+      - file: index.qmd
         text: Home
+      - file: libexp.qmd
+        text: Resources
+      - file: funstuff.qmd
+        text: Fun Stuff
 
 format:
   html:

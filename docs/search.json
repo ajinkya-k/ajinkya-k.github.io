@@ -33,5 +33,68 @@
     "title": "About Me",
     "section": "Teaching Experience",
     "text": "Teaching Experience\nUniversity of Wisconsin – Madison Teaching Assistant, Department of Statistics\n\nSTAT 240: Data Science Modeling I (Fall 2022)\nSTAT 371: Introductory Applied Statistics for the Life Sciences (Spring 2022)\n\nDuke University Teaching Assistant, Department of Computer Science\n\nCOMPSCI 370: Introduction to Artificial Intelligence (Spring 2020)\nCOMPSCI 201: Algorithms and Data Structures (Spring 2019)\n\nBirla Institute of Technology and Science, Pilani Undergraduate Teaching Assistant\n\nECON F211: Principles of Economics\nECON F212: Fundamentals of Finance and Accounting\nECON F412: Securities Analysis and Portfolio Management\nCS F211: Data Structures and Algorithms"
+  },
+  {
+    "objectID": "libexp.html",
+    "href": "libexp.html",
+    "title": "Resources",
+    "section": "",
+    "text": "The internet is full of amazing explanations for all sorts of concepts. The following link is a running list of explanations that I found very insightful. Each author is tagged in the explanation and all credit belongs to the author cited. I have tried my best to credit every author for a page, but if I have missed someone: (a) I apologize and (b) let me know so I can correct that.\nLibrary of Explanations!\nDisclaimer: While visualizations are a good hook for getting people interested in mathematics, they should not be used as the sole learning tool. Do read this essay that talks about the possibilities and limitations of visual explainers."
+  },
+  {
+    "objectID": "libexp.html#library-of-explantations",
+    "href": "libexp.html#library-of-explantations",
+    "title": "Resources",
+    "section": "",
+    "text": "The internet is full of amazing explanations for all sorts of concepts. The following link is a running list of explanations that I found very insightful. Each author is tagged in the explanation and all credit belongs to the author cited. I have tried my best to credit every author for a page, but if I have missed someone: (a) I apologize and (b) let me know so I can correct that.\nLibrary of Explanations!\nDisclaimer: While visualizations are a good hook for getting people interested in mathematics, they should not be used as the sole learning tool. Do read this essay that talks about the possibilities and limitations of visual explainers."
+  },
+  {
+    "objectID": "libexp.html#textbooks-and-references",
+    "href": "libexp.html#textbooks-and-references",
+    "title": "Resources",
+    "section": "Textbooks and References",
+    "text": "Textbooks and References\nThe following is a list of textbooks and references that I have found to be helpful, many of which are freely available.\nFreely available | Full List"
+  },
+  {
+    "objectID": "libexp.html#blogs",
+    "href": "libexp.html#blogs",
+    "title": "Resources",
+    "section": "Blogs",
+    "text": "Blogs\nStatistics Blogs:\n\nAndrew Heiss\nAlex Hayes\nDan Simpson especially this raucously funny post about gaussian processes.\nAndrew Gelman et al.\nKat Hoffman, notably the SuperLearner explainer, and the series on TMLE"
+  },
+  {
+    "objectID": "libexp.html#visualizing-measure-theory",
+    "href": "libexp.html#visualizing-measure-theory",
+    "title": "Resources",
+    "section": "Visualizing Measure Theory",
+    "text": "Visualizing Measure Theory\nThe level of abstraction provided by measure theory is the reason why it is a powerful and general tool for proving results in mathematics. However, this abstraction also makes it difficult to understand the concepts in measure theory. The following are a few interactive demos I made for myself to understand measure theory. They are incomplete and I have added little exposition if any. I plan to update them sometime in the future.\nConvergence of Random Variables demo Lebesgue Integral demo"
+  },
+  {
+    "objectID": "funstuff.html",
+    "href": "funstuff.html",
+    "title": "Ajinkya Kokandakar",
+    "section": "",
+    "text": "The majority of my free time is spent reading something or listening to something.\n\n\nPodcasts I like\n\nI love podcasts! I discovered the magical world of podcasts sometime in 2017. Haven’t stopped since. My podcast app of choice is Pocket Casts. A sample of some great podcasts:\n\nSeen and the Unseen by Amit Varma: India specific podcast, lots of social science and philosophy. Long form (sometimes &gt; 5hr long) interview/discussion.\nZero by Akshat Rathi: explores the policies, tactics and clean technologies taking us to a future of zero emissions as the world fights climate change. Climate reporter Akshat Rathi talks to the people who are making it happen. Produced by Bloomberg Green.\nThe Anthropocene Reviewed by the incredible John Green: This is my favorite podcast, by a country mile!\nGrand Tamasha hosted by Milan Vaishnav:  Discusses the latest developments in Indian politics, economics, foreign policy, society, and culture for a global audience\nIdeas of India by Shruti Rajagopalan: Economis Shruti Rajagopalan examines the ideas that will propel India forward, via conversations with researchers and top thinkers in social science and beyond.\nDear Hank and John by Hank and John Green: where the two brothers answer your questions, give you dubious advice, and bring you the news from Mars and AFC Wimbledon. Seriously just try it!\nLeft, Right and Centre: In (former host) Josh Barro’s words - “your civilized yet provocative antidote to the self-contained opinion bubbles that dominate political debates”\nComputing Up with Michael Littman and Dave Ackley: Conversations about computing writ large\nCapitalisn’t with Luigi Zingales and Bethany McLean: economics podcast that talks about what’s working in capitalism and what isn’t\nCasual Inference hosted by Lucy D’Agostino McGowan and Ellie Murray: podcast about statistics, causal inference, epidemiology, and a bunch of related things.\nThe Gerrymandering Project by the good folks at FiveThirtyEight and also Dave Wasserman: podcast (plus interactives) about the fascinating complexities of gerrymandering and more importantly self-sorting!\nRachman Review with Gideon Rachman: A podcast about international politics by the Financial Times.\nSway with Kara Swisher: Interview podcast unpacking power and technology\nVolts by David Roberts: A newsletter/podcast about clean energy and politics. (Pretty wonky, which is why I love it!)"
+  },
+  {
+    "objectID": "funstuff.html#podcasts",
+    "href": "funstuff.html#podcasts",
+    "title": "Ajinkya Kokandakar",
+    "section": "",
+    "text": "The majority of my free time is spent reading something or listening to something.\n\n\nPodcasts I like\n\nI love podcasts! I discovered the magical world of podcasts sometime in 2017. Haven’t stopped since. My podcast app of choice is Pocket Casts. A sample of some great podcasts:\n\nSeen and the Unseen by Amit Varma: India specific podcast, lots of social science and philosophy. Long form (sometimes &gt; 5hr long) interview/discussion.\nZero by Akshat Rathi: explores the policies, tactics and clean technologies taking us to a future of zero emissions as the world fights climate change. Climate reporter Akshat Rathi talks to the people who are making it happen. Produced by Bloomberg Green.\nThe Anthropocene Reviewed by the incredible John Green: This is my favorite podcast, by a country mile!\nGrand Tamasha hosted by Milan Vaishnav:  Discusses the latest developments in Indian politics, economics, foreign policy, society, and culture for a global audience\nIdeas of India by Shruti Rajagopalan: Economis Shruti Rajagopalan examines the ideas that will propel India forward, via conversations with researchers and top thinkers in social science and beyond.\nDear Hank and John by Hank and John Green: where the two brothers answer your questions, give you dubious advice, and bring you the news from Mars and AFC Wimbledon. Seriously just try it!\nLeft, Right and Centre: In (former host) Josh Barro’s words - “your civilized yet provocative antidote to the self-contained opinion bubbles that dominate political debates”\nComputing Up with Michael Littman and Dave Ackley: Conversations about computing writ large\nCapitalisn’t with Luigi Zingales and Bethany McLean: economics podcast that talks about what’s working in capitalism and what isn’t\nCasual Inference hosted by Lucy D’Agostino McGowan and Ellie Murray: podcast about statistics, causal inference, epidemiology, and a bunch of related things.\nThe Gerrymandering Project by the good folks at FiveThirtyEight and also Dave Wasserman: podcast (plus interactives) about the fascinating complexities of gerrymandering and more importantly self-sorting!\nRachman Review with Gideon Rachman: A podcast about international politics by the Financial Times.\nSway with Kara Swisher: Interview podcast unpacking power and technology\nVolts by David Roberts: A newsletter/podcast about clean energy and politics. (Pretty wonky, which is why I love it!)"
+  },
+  {
+    "objectID": "funstuff.html#books",
+    "href": "funstuff.html#books",
+    "title": "Ajinkya Kokandakar",
+    "section": "Books",
+    "text": "Books\nI read a lot, with occasional droughts. My Goodreads profile, which can be found here, is reasonably up to date.\n\nWhere to get books?\nI love libraries! I frequently use the University of Wisconsin–Madison libraries and the Middleton Public Library. The Middleton Public Library has a vast collection of audiobooks that are made available through Libby and Hoopla. If you live in the US, chances are your local library provides eBooks and audiobooks through Libby."
+  },
+  {
+    "objectID": "funstuff.html#where-to-get-books",
+    "href": "funstuff.html#where-to-get-books",
+    "title": "Ajinkya Kokandakar",
+    "section": "Where to get books?",
+    "text": "Where to get books?\nI love libraries! I frequently use the University of Wisconsin–Madison libraries and the Middleton Public Library. The Middleton Public Library has a vast collection of audiobooks that are made available through Libby and Hoopla. If you live in the US, chances are your local library provides eBooks and audiobooks through Libby."
   }
 ]
