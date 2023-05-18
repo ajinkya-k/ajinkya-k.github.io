@@ -4,17 +4,33 @@ project:
   resources:
     - "files/*"
     - ".nojekyll"
+    - "_extensions/*"
+    - "_extensions/quarto-ext/fontawesome/"
 
 website:
   title: "Ajinkya Kokandakar"
+  repo-url: https://github.com/ajinkya-k/ajinkya-k.github.io
   navbar:
     right:
       - file: index.qmd
         text: Home
+      - text: Papers
+        href: index.qmd#preprints
+      - text: CV
+        file: files/cv.pdf
       - file: libexp.qmd
         text: Resources
       - file: funstuff.qmd
         text: Fun Stuff
+      - icon: github
+        href: https://github.com/ajinkya-k
+      - icon: envelope
+        href: mailto:ajinkya@stat.wisc.edu
+    collapse: true
+  page-footer: 
+    right:
+      - text: blog source
+        href: https://github.com/ajinkya-k/ajinkya-k.github.io
 
 format:
   html:
@@ -23,6 +39,7 @@ format:
       dark: [litera, theme-dark.scss, ember.scss]
     css: styles.css
     toc: true
+    anchor-sections: true
 
 
 

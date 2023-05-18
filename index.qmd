@@ -37,7 +37,7 @@ I am a Ph.D. student in the Department of Statistics at The University of Wiscon
 
 ## Preprints
 
-- **Pre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood** (Nov 2022)
+**Pre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood** (Nov 2022)
     <br> <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small
     <br> arXiv:2211.02104
     <br> [[preprint](https://arxiv.org/abs/2211.02104)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
@@ -45,10 +45,10 @@ I am a Ph.D. student in the Department of Statistics at The University of Wiscon
 
 ## Publications
 
-- <u>Ajinkya H. Kokandakar</u>, Hyunseung Kang, Sameer K. Deshpande, (2023). **"Bayesian causal forests and the 2022 ACIC Data Challenge: scalability and sensitivity."** _Observational Studies,_ 9(3), 29-41. 
+<u>Ajinkya H. Kokandakar</u>, Hyunseung Kang, Sameer K. Deshpande, (2023). **"Bayesian causal forests and the 2022 ACIC Data Challenge: scalability and sensitivity."** _Observational Studies,_ 9(3), 29-41. 
     <br>[[paper](https://muse.jhu.edu/article/895651)] [[preprint](https://arxiv.org/abs/2211.02020)] [[code](https://github.com/skdeshpande91/flexBCF)]
 
-- Jagat Sesh Challa, Poonam Goyal, <u>Ajinkya Kokandakar</u>, Dhananjay Mantri, Pranet Verma, Sundar Balasubramaniam & Navneet Goyal (2022). **"Anytime clustering of data streams while handling noise and concept drift."** _Journal of Experimental & Theoretical Artificial Intelligence,_ 34(3), 399-429, DOI: [10.1080/0952813X.2021.1882001](https://doi.org/10.1080/0952813X.2021.1882001)
+Jagat Sesh Challa, Poonam Goyal, <u>Ajinkya Kokandakar</u>, Dhananjay Mantri, Pranet Verma, Sundar Balasubramaniam & Navneet Goyal (2022). **"Anytime clustering of data streams while handling noise and concept drift."** _Journal of Experimental & Theoretical Artificial Intelligence,_ 34(3), 399-429, DOI: [10.1080/0952813X.2021.1882001](https://doi.org/10.1080/0952813X.2021.1882001)
     <br>[[paper](https://www.tandfonline.com/doi/abs/10.1080/0952813X.2021.1882001)]
 
 ## Research Experience
