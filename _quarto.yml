@@ -27,7 +27,10 @@ website:
       - icon: envelope
         href: mailto:ajinkya@stat.wisc.edu
     collapse: true
-  page-footer: 
+  page-footer:
+    left: 
+      - text: "Uses the ember theme inspired by Alex Hayes's website"
+        href: https://www.alexpghayes.com/
     right:
       - text: blog source
         href: https://github.com/ajinkya-k/ajinkya-k.github.io

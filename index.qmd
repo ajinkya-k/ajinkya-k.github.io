@@ -23,6 +23,8 @@ about:
     - icon: file-earmark-person
       text: CV
       href: files/cv.pdf
+    - text: arXiv
+      href: https://arxiv.org/a/kokandakar_a_1.html
 ---
 :::{#hero-heading}
 
