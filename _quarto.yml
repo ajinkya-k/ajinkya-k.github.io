@@ -29,10 +29,10 @@ website:
     collapse: true
   page-footer:
     left: 
-      - text: "Uses the ember theme inspired by Alex Hayes's website"
+      - text: "Based on the Ember theme from Alex Hayes's website"
         href: https://www.alexpghayes.com/
     right:
-      - text: blog source
+      - text: website source
         href: https://github.com/ajinkya-k/ajinkya-k.github.io
 
 format:
