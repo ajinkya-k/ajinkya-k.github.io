@@ -34,7 +34,7 @@ about:
 <br/>[ajinkya@stat.wisc.edu](mailto:ajinkya@stat.wisc.edu)
 
 I am a Ph.D. student in the Department of Statistics at The University of Wisconsin—Madison advised by [Dr. Sameer Deshpande](https://skdeshpande91.github.io/). I am pursuing research in causal inference, machine learning and decision-making. Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference with when the exposure is not very well defined. 
-I am also working as a Project Assistant in the [CALS Consulting Lab](https://calslab.cals.wisc.edu/stat-consulting/), currently training to become a statistical consultant.
+I am also working as a Project Assistant in the [Statistical Consulting Group](https://stat.wisc.edu/statistical-consulting-team/) at UW-Madison (formerly known as the CALS Consulting Lab), currently training to become a statistical consultant.
 
 Prior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani in India.
 
