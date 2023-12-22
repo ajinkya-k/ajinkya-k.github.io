@@ -74,14 +74,14 @@
     "href": "libexp.html#textbooks-and-references",
     "title": "Resources",
     "section": "Textbooks and References",
-    "text": "Textbooks and References\nThe following is a list of textbooks and references that I have found to be helpful, many of which are freely available.\nFreely available | Full List"
+    "text": "Textbooks and References\nThe following is a list of textbooks and references that I have found to be helpful, many of which are freely available.\nFreely available | Full List\nUnderstanding linear models, ANOVA and experimental design is really important for statisticians, especially when doing statistical consulting and the most informative books in this reagard are:\n\nANOVA and Mixed Models by Lukas Meier which is freely available\nApplied Linear Statistical Models, by Kutner, Nachtsheim, Neter and Li, which I think has the most complete and thorough treatment of ANOVA"
   },
   {
     "objectID": "libexp.html#blogs",
     "href": "libexp.html#blogs",
     "title": "Resources",
     "section": "Blogs",
-    "text": "Blogs\nStatistics Blogs:\n\nAndrew Heiss\nAlex Hayes\nDan Simpson especially this raucously funny post about gaussian processes.\nAndrew Gelman et al.\nKat Hoffman, notably the SuperLearner explainer, and the series on TMLE"
+    "text": "Blogs\nStatistics Blogs:\n\nAndrew Heiss\nAlex Hayes\nDan Simpson especially this raucously funny post about gaussian processes.\nAndrew Gelman et al.\nKat Hoffman, notably the SuperLearner explainer, and the series on TMLE\nPrecision Analytics Blog especially this really great introduction to INLA by Kathryn Morrison\nOur Coding Club has fantastic tutorials on many subjects related to R programming and statistics. I personally found the mixed effects models tutorial really useful"
   },
   {
     "objectID": "libexp.html#visualizing-measure-theory",

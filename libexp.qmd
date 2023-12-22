@@ -21,11 +21,15 @@ Do read [this essay](https://j2kun.svbtle.com/why-i-hate-and-love-visualizations
 
 ## Textbooks and References
 
-The following is a list of textbooks and references that I have found to be helpful,  many of which are freely available.
+The following is a list of textbooks and references that I have found to be helpful, many of which are freely available.
 
 [Freely available](https://www.notion.so/ajinkya/9a488e192044408799336ca138c7f46b?v=fc2215b3b2864ec6a9989b518ebc69bb)
 | [Full List](https://www.notion.so/ajinkya/9a488e192044408799336ca138c7f46b?v=b7ba08f51478448eba5ea7b47c204056)
 
+Understanding linear models, ANOVA and experimental design is really important for statisticians, especially when doing statistical consulting and the most informative books in this reagard are:
+
+-  [ANOVA and Mixed Models](https://people.math.ethz.ch/~meier/teaching/anova/index.html) by Lukas Meier which is freely available
+-  [Applied Linear Statistical Models](https://search.worldcat.org/title/55502728), by Kutner, Nachtsheim, Neter and Li, which I think has the most complete and thorough treatment of ANOVA
 
 ## Blogs
 
@@ -36,6 +40,8 @@ Statistics Blogs:
 - [Dan Simpson](https://dansblog.netlify.app) especially this raucously funny post about [gaussian processes][dsgp].
 - [Andrew Gelman et al.](https://statmodeling.stat.columbia.edu/)
 - [Kat Hoffman](https://www.khstats.com/), notably the SuperLearner [explainer](https://www.khstats.com/blog/sl/superlearning/), and the [series on TMLE](https://www.khstats.com/blog/tmle/tutorial/)
+- [Precision Analytics Blog](https://www.precision-analytics.ca/articles/) especially [this really great introduction to INLA](https://www.precision-analytics.ca/articles/a-gentle-inla-tutorial/) by Kathryn Morrison
+- [Our Coding Club](https://ourcodingclub.github.io) has fantastic tutorials on many subjects related to `R` programming and statistics. I personally found the [mixed effects models](https://ourcodingclub.github.io/tutorials/mixed-models/) tutorial really useful
 
 ## Visualizing Measure Theory
 
