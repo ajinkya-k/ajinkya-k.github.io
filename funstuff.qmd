@@ -34,6 +34,7 @@ A sample of some great podcasts:
     by [Shruti Rajagopalan](http://shrutiraj.com/):
     <br>Economis Shruti Rajagopalan examines the ideas that will propel India forward, via conversations with researchers and top thinkers in social science and beyond.
 
+<!--
 - [Dear Hank and John](https://dear-hank-john-a5cf29b8.simplecast.com/) 
     by [Hank](https://hankgreen.com/) and 
     [John Green](https://www.johngreenbooks.com/): 
@@ -42,15 +43,16 @@ A sample of some great podcasts:
 - [Left, Right and Centre](https://www.kcrw.com/news/shows/left-right-center): 
     <br>In (former host) Josh Barro's words - 
     "your civilized yet provocative antidote to the self-contained opinion bubbles that dominate political debates"
+-->
 
 - [Computing Up](https://computingup.com/)
     with [Michael Littman](https://www.littmania.com/) and [Dave Ackley](https://twitter.com/livcomp): 
     <br>Conversations about computing writ large
-
+<!--
 - [Capitalisn't](https://www.capitalisnt.com/) 
     with [Luigi Zingales](https://faculty.chicagobooth.edu/luigi-zingales) and [Bethany McLean](https://twitter.com/bethanymac12): 
     <br>economics podcast that talks about what's working in capitalism and what isn't
-
+-->
 - [Casual Inference](https://casualinfer.libsyn.com/)
     hosted by [Lucy D’Agostino McGowan](https://www.lucymcgowan.com/) and Ellie Murray: 
     <br>podcast about statistics, causal inference, epidemiology, and a bunch of related things. 
@@ -86,8 +88,10 @@ I love libraries! I frequently use the [University of Wisconsin--Madison librari
 Both have a vast collection of audiobooks and eBooks that are made available through [Libby](https://libbyapp.com/).
 If you live in the US, chances are your local library provides eBooks and audiobooks through Libby.
 The Middleton Public Library also provides audiobooks and eBooks via [Hoopla Digital](https://www.hoopladigital.com/).
+In fact the local library near you may even offer free access to movies, TV shows and documentaries through [Kanopy](https://www.kanopy.com/en/signup).
 
 
 #### Buying Physical Books
 
 If you want to buy physical copies, I highly recommend [BookFinder](https://www.bookfinder.com/). Its a search engine that collates a list of online stores where the book you want is available sorted by price (and categorized by used/new).
+It is perhaps the best way to find the cheapest copy of a book available for sale online.

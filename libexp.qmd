@@ -42,6 +42,7 @@ Statistics Blogs:
 - [Kat Hoffman](https://www.khstats.com/), notably the SuperLearner [explainer](https://www.khstats.com/blog/sl/superlearning/), and the [series on TMLE](https://www.khstats.com/blog/tmle/tutorial/)
 - [Precision Analytics Blog](https://www.precision-analytics.ca/articles/) especially [this really great introduction to INLA](https://www.precision-analytics.ca/articles/a-gentle-inla-tutorial/) by Kathryn Morrison
 - [Our Coding Club](https://ourcodingclub.github.io) has fantastic tutorials on many subjects related to `R` programming and statistics. I personally found the [mixed effects models](https://ourcodingclub.github.io/tutorials/mixed-models/) tutorial really useful
+- [Jesse Sadler](https://www.jessesadler.com) is a historian whose blog has a number of excellent tutorials related to spatial statistics in R and tools for digitial humanities in general
 
 ## Visualizing Measure Theory
 
