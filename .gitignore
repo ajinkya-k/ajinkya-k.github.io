@@ -2,3 +2,5 @@
 .jekyll-metadata
 Gemfile.lock
 /.quarto/
+*.DS_Store
+.DS_Store

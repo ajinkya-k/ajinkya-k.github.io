@@ -35,11 +35,11 @@
     "text": "Ph.D. Candidate in Statistics | Statistical Consultant The University of Wisconsin–Madison ajinkya@stat.wisc.edu\nI am a Ph.D. Candidate in Statistics at the University of Wisconsin—Madison advised by Dr. Sameer Deshpande, pursuing research in causal inference and Bayesian methods. Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference when the exposure is not very well defined.\nI also work as a consultant in the Statistical Consulting Group at UW-Madison (formerly the CALS Consulting Lab), assistant clients from life sciences with experimental design and data analysis.\nPrior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani in India."
   },
   {
-    "objectID": "index.html#preprints",
-    "href": "index.html#preprints",
+    "objectID": "index.html#preprints-and-working-projects",
+    "href": "index.html#preprints-and-working-projects",
     "title": "About Me",
-    "section": "Preprints",
-    "text": "Preprints\nPre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood (Nov 2022)  Ajinkya H. Kokandakar, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small  arXiv:2211.02104  [preprint] [code]"
+    "section": "Preprints and Working Projects",
+    "text": "Preprints and Working Projects\nPre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood (Nov 2022)  Ajinkya H. Kokandakar, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small  arXiv:2211.02104  [preprint] [code]\nQuantifying Near-Surface NO2 with Satellite Data Using Regression Methods (Jan 2024) Eliot J. Kim, Tracey Holloway, Ajinkya H. Kokandakar, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck In Review"
   },
   {
     "objectID": "index.html#publications",
@@ -47,6 +47,13 @@
     "title": "About Me",
     "section": "Publications",
     "text": "Publications\nAjinkya H. Kokandakar, Hyunseung Kang, Sameer K. Deshpande, (2023). “Bayesian causal forests and the 2022 ACIC Data Challenge: scalability and sensitivity.” Observational Studies, 9(3), 29-41. [paper] [preprint] [code]\nJagat Sesh Challa, Poonam Goyal, Ajinkya Kokandakar, Dhananjay Mantri, Pranet Verma, Sundar Balasubramaniam & Navneet Goyal (2022). “Anytime clustering of data streams while handling noise and concept drift.” Journal of Experimental & Theoretical Artificial Intelligence, 34(3), 399-429, DOI: 10.1080/0952813X.2021.1882001 [paper]"
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "About Me",
+    "section": "Work Experience",
+    "text": "Work Experience\nUniversity of Wisconsin – Madison Project Assistant, Statistical Consulting Group (Aug 2023 - Present)\n\nAssisting clients from the College of Agriculture and life science with experimental design and analysis data obtained from experiments\n\n\nInfosys Ltd  Specialist Programmer (July 2017 - May 2018)\n\nDesigned and developed the telemetry and data analytics module for the company’s internal learning platform"
   },
   {
     "objectID": "index.html#research-experience",
