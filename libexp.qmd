@@ -16,6 +16,15 @@ I have tried my best to credit every author for a page, but if I have missed som
 
 [Library of Explanations!](https://www.notion.so/ajinkya/865585f2c2e94843a4a530e0bebf0df8?v=4c769956720049dd9d6f688f56bf3e38)
 
+## Explanatory Academic Papers
+
+Below is a list of academic papers that explain some methodology or concept. 
+The purpose of this list to collect papers that helped me understand a topic and may not contain the first paper to come up with an idea.
+
+[List of academic papers](https://ajinkya.notion.site/e8a1847d14614c8da47a4172b2ea1023?v=301472d6c66a4cb697dfe990a84ddb52&pvs=4)
+
+
+
 **Disclaimer:** While visualizations are a good hook for getting people interested in mathematics, they should not be used as the sole learning tool. 
 Do read [this essay](https://j2kun.svbtle.com/why-i-hate-and-love-visualizations-of-mathematics) that talks about the possibilities and limitations of visual explainers. 
 
@@ -43,6 +52,8 @@ Statistics Blogs:
 - [Precision Analytics Blog](https://www.precision-analytics.ca/articles/) especially [this really great introduction to INLA](https://www.precision-analytics.ca/articles/a-gentle-inla-tutorial/) by Kathryn Morrison
 - [Our Coding Club](https://ourcodingclub.github.io) has fantastic tutorials on many subjects related to `R` programming and statistics. I personally found the [mixed effects models](https://ourcodingclub.github.io/tutorials/mixed-models/) tutorial really useful
 - [Jesse Sadler](https://www.jessesadler.com) is a historian whose blog has a number of excellent tutorials related to spatial statistics in R and tools for digitial humanities in general
+- [Noah Greifer][ng] is the author of many matching related packages for `R`. He has a very good [explanation of matching weights](https://ngreifer.github.io/blog/matching-weights/) on his blog.
+- [Netflix Technology Blog][nflx], especially the series on sequential A/B testing ([part 1][nflx_1], [part 2][nflx_2])
 
 ## Visualizing Measure Theory
 
@@ -57,3 +68,7 @@ They are incomplete and I have added little exposition if any. I plan to update 
 [ah]: https://www.andrewheiss.com/blog/
 [apg]: https://www.alexpghayes.com/
 [dsgp]: https://dansblog.netlify.app/posts/2021-11-03-yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness/yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness.html
+[ng]: https://ngreifer.github.io/blog/
+[nflx]: https://netflixtechblog.com/
+[nflx_1]: https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df
+[nflx_2]: https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642
