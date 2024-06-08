@@ -7,6 +7,8 @@ project:
     - "_extensions/*"
     - "_extensions/quarto-ext/fontawesome/"
 
+date: last-modified
+
 website:
   title: "Ajinkya Kokandakar"
   repo-url: https://github.com/ajinkya-k/ajinkya-k.github.io
@@ -31,6 +33,8 @@ website:
     left: 
       - text: "Based on the Ember theme from Alex Hayes's website"
         href: https://www.alexpghayes.com/
+    center:
+      - text: "Last Modified: {{< meta date >}}"
     right:
       - text: website source
         href: https://github.com/ajinkya-k/ajinkya-k.github.io
