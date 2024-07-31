@@ -70,7 +70,7 @@ Currently, my work focuses on heterogeneous treatment effect estimation, and cau
 
 
 **A Comparison of Regression Methods for Inferring Near-Surface NO2 with Satellite Data** (Jan 2024)
-<br>Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck. _In review_
+<br>Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck. _Accepted for publication in JGR Atmospheres_
 <br> [[preprint](https://doi.org/10.22541/au.171045413.38645578/v1)]
 
 ## Publications
