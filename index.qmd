@@ -50,7 +50,7 @@ Ph.D. Candidate in Statistics | Statistical Consultant
 <br/>The University of Wisconsin--Madison
 <br/>[ajinkya@stat.wisc.edu](mailto:ajinkya@stat.wisc.edu)
 
-**Current:** I am working as a Data Science Intern at [Mathematica Inc](https://www.mathematica.org) (Summer 2024).
+**Current:** I am working as a Data Science Intern (part-time) at [Mathematica Inc.](https://www.mathematica.org) and as a Statistical Consultant (also part-time) on campus at UW--Madison.
 
 **Research:** I am a Ph.D. candidate in Statistics at the UW-Madison advised by [Dr. Sameer Deshpande](https://skdeshpande91.github.io/), pursuing research in causal inference and Bayesian methods.
 Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference when the exposure is not very well defined. 
@@ -68,12 +68,13 @@ Currently, my work focuses on heterogeneous treatment effect estimation, and cau
   <!-- <br> arXiv:2405.03538 -->
   <br> [[preprint](https://arxiv.org/abs/2405.03538)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
 
-
-**A Comparison of Regression Methods for Inferring Near-Surface NO2 with Satellite Data** (Jan 2024)
-<br>Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck. _Accepted for publication in JGR Atmospheres_
-<br> [[preprint](https://doi.org/10.22541/au.171045413.38645578/v1)]
-
 ## Publications
+
+Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck, (2024)
+<br>**A Comparison of Regression Methods for Inferring Near-Surface NO2 with Satellite Data**
+<br> _Journal of Geophysical Research: Atmospheres_, 129, e2024JD040906
+<br> [[paper](https://doi.org/10.1029/2024JD040906)] [[preprint](https://doi.org/10.22541/au.171045413.38645578/v1)] 
+
 
 <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small, (2024). 
 <br>**"Pre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood."** <br>_Observational Studies_ 10(1), 11-35
@@ -91,7 +92,9 @@ Jagat Sesh Challa, Poonam Goyal, <u>Ajinkya Kokandakar</u>, Dhananjay Mantri, Pr
 ## Work Experience
 
 **Mathematica Inc.**
-<br>Data Science Intern (June 2024 - Present)
+<br>Data Science Intern (June 2024 - August 2024 full-time, part-time since Aug 2024)
+
+- Developing and using Bayesian non-parametric methods for subgroup analysis in a large scale healthcare impact evaluation
 
 **University of Wisconsin -- Madison**
 <br>Project Assistant, [Statistical Consulting Group](https://stat.wisc.edu/statistical-consulting-team/) (Aug 2023 - May 2024)
