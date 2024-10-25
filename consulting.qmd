@@ -1,0 +1,9 @@
+---
+title: Statistical Consulting at UW-Madison
+page-layout: article
+toc: false
+---
+
+I work as a Project Assistant in the [Statistical Consulting Group](https://stat.wisc.edu/statistical-consulting/) which is a part of the Department of Statistics at the University of Wisconsin--Madison.
+As a consultant, I have worked with more than 20 clients helping them with experimental design, data analysis and conveying statistical results.
+If you are affiliated with UW-Madison and want statistics-related help for your research project, please visit the group's [website](https://stat.wisc.edu/statistical-consulting).
