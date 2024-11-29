@@ -1,0 +1,230 @@
+---
+title: "Faster `rank(::QRPivoted)` function"
+description: "Benchmarking implementations of rank functions"
+author:
+  - name: Ajinkya Kokandakar
+    url: https://ajinkya-k.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: University of Wisconsin, Madison
+    affiliation-url: https://www.wisc.edu/ 
+date: 11-28-2024
+categories: [Julia, Linear Algebra] # self-defined categories
+citation: 
+  url: https://ajinkya-k.github.io/posts/2024-18-24-allocations-runtime/ 
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+engine: julia
+julia:
+  exeflags:
+    - '-tauto'
+    - '--project'
+---
+
+# Why am I writing about this? 
+
+The current implementation of the rank method for pivoted QR decomposition in julia is slow and inefficient.
+The modified version proposed here improves run time by orders of magnitude.
+
+# Load necessary packages
+
+```{julia}
+using LinearAlgebra
+using Chairmarks
+using PrettyChairmarks
+using Statistics
+import LinearAlgebra: rank
+using TidierPlots
+using DataFrames
+```
+
+# Computing the rank from a pivoted QR decomposition
+
+Let's generate a $n \times n$ matrix say $A$ with rank $r$, by first generating a $n \times r$ matrix and then computing its outerproduct. 
+This function was based on a stackoverflow answer [here](https://stackoverflow.com/a/10149972). 
+```{julia}
+#| output: false
+n = 100
+r = 20
+
+X = randn(n, r)
+
+outprod(X::Matrix) = X * X'
+A = X * X'
+```
+
+Now let's compute the pivoted QR factorization of A.
+
+```{julia}
+Aqr = qr(A, ColumnNorm());
+``` 
+
+# Generate matrix of known rank
+
+The following function generates a $n \times m$ matrix of rank $r \leq \min(n, m)$.
+We will use this for benchmarking the implementations.
+```{julia}
+# Generate an `n × m` matrix of rank `r`
+function generatematrix(n::T, m::T, r::T) where {T<:Integer}
+    A = randn(n, r)
+    B = randn(m, r)
+    return A * B'
+end
+```
+
+# Computing the rank
+
+The current implmentation in the `julia` repo is as follows:
+```{julia}
+function rank(A::QRPivoted; atol::Real=0, rtol::Real=min(size(A)...) * eps(real(float(one(eltype(A.Q))))) * iszero(atol))
+    m = min(size(A)...)
+    m == 0 && return 0
+    tol = max(atol, rtol*abs(A.R[1,1]))
+    return something(findfirst(i -> abs(A.R[i,i]) <= tol, 1:m), m+1) - 1
+end
+```
+
+The following implementation (`ranfast`) is orders of magnitude faster.
+See sections below for tests and benchmarks.
+```{julia}
+function rankfast(A::QRPivoted; atol::Real=0, rtol::Real=min(size(A)...) * eps(real(float(one(eltype(A.Q))))) * iszero(atol))
+    m = min(size(A)...)
+    m == 0 && return 0
+    rdiag = diag(getfield(A, :factors))
+    tol = max(atol, rtol*abs(rdiag[1]))
+
+    return something(findfirst(abs.(rdiag) .<= tol), m+1) - 1
+end
+```
+
+```{julia}
+#| echo: true
+rank(Aqr) == rankfast(Aqr)
+```
+
+```{julia}
+rankbench = @bs rank($Aqr)
+```
+```{julia}
+rankfastbench = @bs rankfast($Aqr)
+```
+
+# Varying the rank
+
+Now we generate matrices of size $1000 \times 100$, with ranks increasing from 1 to 100, to compare the two implementations.
+
+```{julia}
+#| cache: true
+n = 1000; m = 100
+
+
+benchs = Vector{Chairmarks.Benchmark}()
+benchf = Vector{Chairmarks.Benchmark}()
+
+
+for r in 1:min(n,m)
+  _qrA = qr(generatematrix(n, m, r), ColumnNorm())
+  _br = @be rank($_qrA)
+  _brf = @be rankfast($_qrA)
+
+  if (rank(_qrA) != rankfast(_qrA)) 
+    println("uh oh rank didnt match") 
+  else
+    print(".")
+  end
+
+  push!(benchs, _br)
+  push!(benchf, _brf)
+end
+```
+
+```{julia}
+#| output: false
+medslow = [median(bnc) for bnc in benchs]
+medfast = [median(bnc) for bnc in benchf]
+```
+
+```{julia}
+xs = collect(1:min(m,n))
+
+df = DataFrame(
+  rank = xs,
+  median_time = [b.time for b in medslow],
+  median_time_fast = [b.time for b in medfast],
+  medianbytes = [b.bytes for b in medslow],
+  medianbytes_fast = [b.bytes for b in medfast])
+
+ggplot(df) +
+  geom_line(
+    @aes(x = rank, y = median_time), color = "red"
+  ) +
+  geom_line(
+    @aes(x = rank, y = median_time_fast), color = "blue"
+  ) +
+  labs(
+    x = "rank", 
+    y = "runtime (in seconds, log scale)", 
+    title = "runtime of current (red) and faster (blue) method for $n x $m matrix"
+  ) +
+  scale_y_log10()
+```
+
+
+```{julia}
+xs = collect(1:min(m,n))
+
+ggplot(df) +
+  geom_line(
+    @aes(x = rank, y = medianbytes), color = "red"
+  ) +
+  geom_line(
+    @aes(x = rank, y = medianbytes_fast), color = "blue"
+  ) +
+  labs(x = "rank", 
+  y = "memory allocated (in bytes, log scale)", title = "Median memory allocated of current (red) and faster (blue) method for $n x $m matrix") +
+  scale_y_log10()
+```
+
+
+# Why is the current implementaiton so slow?
+
+It's slow because it calls `Aqr.R` for every diagonal entry,
+which leads to computing the upper triangular matrix each time! 
+If `min(n, m)` is large, that can mean recreating this matrix a lot of times!
+The code below demonstrates this.
+```{julia}
+
+A = generatematrix(10000, 100, 80);
+Aqr = qr(A, ColumnNorm());
+```
+
+```{julia}
+@bs for i in 1:min(size(A)...) Aqr.R[i,i] end
+```
+
+```{julia}
+@bs for i in 1:min(size(A)...) Aqr.factors[i,i] end
+```
+
+```{julia}
+@bs Aqr.R[1,1]
+```
+```{julia}
+@bs Aqr.factors[1,1]
+```
+
+# Alloc can get bad for large matrices!
+
+If the matrix is large (even if the rank is small), the current method allocates too much!
+See example below.
+```{julia}
+Mqr = qr(generatematrix(1000, 100, 50), ColumnNorm());
+```
+
+The current implementation allocated ~400 megabytes and takes on the order of 100 ms to run!
+```{julia} 
+@bs rank($Mqr)
+```
+
+The faster method only allocates ~10 kilobytes and the runtime is in μs!!
+```{julia}
+@bs rankfast($Mqr)
+```
