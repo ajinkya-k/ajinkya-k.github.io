@@ -38,8 +38,7 @@ using DataFrames
 
 # Computing the rank from a pivoted QR decomposition
 
-Let's generate a $n \times n$ matrix say $A$ with rank $r$, by first generating a $n \times r$ matrix and then computing its outerproduct. 
-This function was based on a stackoverflow answer [here](https://stackoverflow.com/a/10149972). 
+Let's generate a $n \times n$ matrix say $A$ with rank $r$, by first generating a $n \times r$ matrix and then computing its outerproduct.
 ```{julia}
 #| output: false
 n = 100
@@ -61,6 +60,7 @@ Aqr = qr(A, ColumnNorm());
 
 The following function generates a $n \times m$ matrix of rank $r \leq \min(n, m)$.
 We will use this for benchmarking the implementations.
+This function was based on a stackoverflow answer [here](https://stackoverflow.com/a/10149972). 
 ```{julia}
 # Generate an `n × m` matrix of rank `r`
 function generatematrix(n::T, m::T, r::T) where {T<:Integer}
