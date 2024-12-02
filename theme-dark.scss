@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 // Base document colors
-$body-bg: #181818;
-$navbar-bg: #181818;
+$body-bg: #1e2227;
+$navbar-bg: #1e2227;
 $body-color: lightgray;
 $link-color: #75AADB;
 //$link-color: #FFFFFF;
@@ -12,4 +12,10 @@ $code-block-bg-alpha: -.8;
 /*-- scss:rules --*/
 h2 {
     border-bottom-color: lightgray;
+}
+
+pre {
+    code {
+        color: lightgray;
+    }
 }
