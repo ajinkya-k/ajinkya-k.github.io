@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+@font-face {
+	font-family: JuliaMono;
+	src:
+		url("assets/ttf/JuliaMono-Regular.ttf");
+}
+
+$font-family-monospace: JuliaMono;
+
+pre {
+    line-height: normal;
+    code {
+        font-size: 1em;
+        line-height: normal;
+    }
+}

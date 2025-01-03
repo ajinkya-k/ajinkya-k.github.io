@@ -3,11 +3,12 @@ project:
   output-dir: docs
   resources:
     - "files/*"
+    - "assets/*"
     - ".nojekyll"
     - "_extensions/*"
     - "_extensions/quarto-ext/fontawesome/"
 
-date2: Nov 29, 2024
+date2: Jan 3, 2025
 
 website:
   title: "Ajinkya Kokandakar"
@@ -42,8 +43,8 @@ website:
 format:
   html:
     theme:
-      light: [litera, ember.scss]
-      dark: [litera, theme-dark.scss, ember.scss]
+      light: [litera, ember.scss, stylesv.scss]
+      dark: [litera, stylesv.scss, theme-dark.scss, ember.scss]
     css: styles.css
     toc: true
     anchor-sections: true

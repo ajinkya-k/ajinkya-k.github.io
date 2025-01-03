@@ -50,7 +50,7 @@ Ph.D. Candidate in Statistics | Statistical Consultant
 <br/>The University of Wisconsin--Madison
 <br/>[ajinkya@stat.wisc.edu](mailto:ajinkya@stat.wisc.edu)
 
-**Current:** I am working as a Data Science Intern (part-time) at [Mathematica Inc.](https://www.mathematica.org) and as a Statistical Consultant (also part-time) on campus at UW--Madison.
+<!-- **Work Experience:** I worked as a Data Science Intern [Mathematica Inc.](https://www.mathematica.org) and as a Statistical Consultant (also part-time) on campus at UW--Madison. -->
 
 **Research:** I am a Ph.D. candidate in Statistics at the UW-Madison advised by [Dr. Sameer Deshpande](https://skdeshpande91.github.io/), pursuing research in causal inference and Bayesian methods.
 Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference when the exposure is not very well defined. 
@@ -92,7 +92,7 @@ Jagat Sesh Challa, Poonam Goyal, <u>Ajinkya Kokandakar</u>, Dhananjay Mantri, Pr
 ## Work Experience
 
 **Mathematica Inc.**
-<br>Data Science Intern (June 2024 - August 2024 full-time, part-time since Aug 2024)
+<br>Data Science Intern (June - Aug 2024 full-time, Aug - Dec 2024 part-time)
 
 - Developing and using Bayesian non-parametric methods for subgroup analysis in a large scale healthcare impact evaluation
 

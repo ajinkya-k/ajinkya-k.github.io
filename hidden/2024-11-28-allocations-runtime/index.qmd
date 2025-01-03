@@ -34,6 +34,8 @@ using Statistics
 import LinearAlgebra: rank
 using TidierPlots
 using DataFrames
+
+TidierPlots_set("plot_show", false)
 ```
 
 # Computing the rank from a pivoted QR decomposition
@@ -48,6 +50,8 @@ X = randn(n, r)
 
 outprod(X::Matrix) = X * X'
 A = X * X'
+
+π
 ```
 
 Now let's compute the pivoted QR factorization of A.
@@ -113,7 +117,7 @@ Now we generate matrices of size $1000 \times 100$, with ranks increasing from 1
 
 ```{julia}
 #| cache: true
-n = 1000; m = 100
+n = 100; m = 30
 
 
 benchs = Vector{Chairmarks.Benchmark}()

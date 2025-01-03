@@ -1,11 +1,16 @@
 /*-- scss:defaults --*/
+@font-face {
+	font-family: JuliaMono;
+	src:
+		url("assets/ttf/JuliaMono-Regular.ttf");
+}
+
 // Base document colors
 $body-bg: #1e2227;
 $navbar-bg: #1e2227;
 $body-color: lightgray;
 $link-color: #75AADB;
 //$link-color: #FFFFFF;
-
 // Code blocks
 $code-block-bg-alpha: -.8;
 
@@ -17,5 +22,7 @@ h2 {
 pre {
     code {
         color: lightgray;
+        font-size: 1em;
+        line-height: normal;
     }
 }
