@@ -1,9 +1,13 @@
 /*-- scss:defaults --*/
 @font-face {
-	font-family: JuliaMono;
-	src:
-		url("assets/ttf/JuliaMono-Regular.ttf");
+    font-family: JuliaMono;
+    src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono-webfonts/JuliaMono-Regular.woff2") format("woff2");
+    font-display: swap;
+    // font-weight: 400;
+    // unicode-range: U+00-7F; /* Basic Latin characters */
 }
+
+$font-family-monospace: JuliaMono, Menlo, "Roboto Mono", "Lucida Sans Typewriter", "Source Code Pro", monospace;
 
 // Base document colors
 $body-bg: #1e2227;
