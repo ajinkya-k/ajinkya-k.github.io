@@ -57,34 +57,39 @@ Currently, my work focuses on heterogeneous treatment effect estimation, and cau
 
 **Consulting:** I [work as a consultant](consulting.qmd) in the [Statistical Consulting Group](https://stat.wisc.edu/statistical-consulting-team/) at UW-Madison (formerly the CALS Consulting Lab), assisting clients from life sciences with experimental design and data analysis.
 
-**Background:** Prior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani in India.
-
+**Background:** I worked as a Data Scientist intern at [Mathematica Inc](https://www.mathematica.org) from June - Dec 2024.
+Prior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani and worked as a Software Engineer at Infosys Ltd. in India
 :::
 
-## Preprints and Working Projects
-
-**Adolescent sports participation and health in early adulthood: An observational study** (2024+)
-  <br> <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Dylan Small, Sameer K. Deshpande
-  <!-- <br> arXiv:2405.03538 -->
-  <br> [[preprint](https://arxiv.org/abs/2405.03538)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
+<!-- ## Preprints and Working Projects -->
 
 ## Publications
 
+
+  <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Dylan Small, Sameer K. Deshpande
+  <br>**Adolescent sports participation and health in early adulthood: An observational study** (2024+)
+  <br>_Youth & Society_
+  <!-- <br> arXiv:2405.03538 -->
+  <br>[[paper](https://doi.org/10.1177/0044118X241310245)] [[preprint](https://arxiv.org/abs/2405.03538)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
+
+
+<br />
 Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck, (2024)
 <br>**A Comparison of Regression Methods for Inferring Near-Surface NO2 with Satellite Data**
 <br> _Journal of Geophysical Research: Atmospheres_, 129, e2024JD040906
 <br> [[paper](https://doi.org/10.1029/2024JD040906)] [[preprint](https://doi.org/10.22541/au.171045413.38645578/v1)] 
 
-
+<br />
 <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small, (2024). 
 <br>**"Pre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood."** <br>_Observational Studies_ 10(1), 11-35
     <br> [[paper](https://muse.jhu.edu/pub/56/article/929115)] [[preprint](https://arxiv.org/abs/2211.02104)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
 
-
+<br />
 <u>Ajinkya H. Kokandakar</u>, Hyunseung Kang, Sameer K. Deshpande, (2023). 
 <br>**"Bayesian causal forests and the 2022 ACIC Data Challenge: scalability and sensitivity."** _Observational Studies,_ 9(3), 29-41. 
     <br>[[paper](https://muse.jhu.edu/article/895651)] [[preprint](https://arxiv.org/abs/2211.02020)] [[code](https://github.com/skdeshpande91/flexBCF)]
 
+<br />
 Jagat Sesh Challa, Poonam Goyal, <u>Ajinkya Kokandakar</u>, Dhananjay Mantri, Pranet Verma, Sundar Balasubramaniam & Navneet Goyal (2022). <br>**"Anytime clustering of data streams while handling noise and concept drift."**
 <br>_Journal of Experimental & Theoretical Artificial Intelligence,_ 34(3), 399-429. <!-- , DOI: [10.1080/0952813X.2021.1882001](https://doi.org/10.1080/0952813X.2021.1882001) -->
     <br>[[paper](https://www.tandfonline.com/doi/abs/10.1080/0952813X.2021.1882001)]
