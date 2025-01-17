@@ -69,7 +69,7 @@ Prior to joining UW—Madison, I graduated with a MS in Economics and Computatio
 
 
   <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Dylan Small, Sameer K. Deshpande
-  <br>**Adolescent sports participation and health in early adulthood: An observational study** (2024+)
+  <br>**Adolescent sports participation and health in early adulthood: An observational study** (2025)
   <br>_Youth & Society_
   <!-- <br> arXiv:2405.03538 -->
   <br>[[paper](https://doi.org/10.1177/0044118X241310245)] [[preprint](https://arxiv.org/abs/2405.03538)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
