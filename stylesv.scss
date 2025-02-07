@@ -10,7 +10,8 @@
 $font-family-monospace: JuliaMono, Menlo, "Roboto Mono", "Lucida Sans Typewriter", "Source Code Pro", monospace;
 
 pre {
-    code {
-        line-height: normal;
+    span {
+        line-height: normal !important;
     }
+    line-height: normal !important;
 }

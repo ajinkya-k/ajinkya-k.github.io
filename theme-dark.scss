@@ -24,9 +24,11 @@ h2 {
 }
 
 pre {
-    code {
-        color: lightgray;
-        font-size: 1em;
-        line-height: normal;
-    }
+    color: lightgray !important;
+    // font-size: 1em !important;
+    line-height: normal !important;
+}
+
+.ansi-black-intense-black, .ansi-bright-black-fg {
+    color: lightgray !important;
 }
