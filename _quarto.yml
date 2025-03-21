@@ -28,8 +28,8 @@ website:
         href: https://github.com/ajinkya-k
       - icon: envelope
         href: mailto:ajinkya@stat.wisc.edu
-      - href: https://ajinkya-k.github.io/presentations
-        text: Presentations
+      - file: opensource.qmd
+        text: Code
     collapse: true
   page-footer:
     left: 
