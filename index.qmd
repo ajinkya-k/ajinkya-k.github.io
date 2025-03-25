@@ -53,9 +53,9 @@ Ph.D. Candidate in Statistics | Statistical Consultant
 <!-- **Work Experience:** I worked as a Data Science Intern [Mathematica Inc.](https://www.mathematica.org) and as a Statistical Consultant (also part-time) on campus at UW--Madison. -->
 
 **Research:** I am a Ph.D. candidate in Statistics at the UW-Madison advised by [Dr. Sameer Deshpande](https://skdeshpande91.github.io/), pursuing research in causal inference and Bayesian methods.
-Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference when the exposure is not very well defined. 
+Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference when the exposure is not very well defined.
 
-**Consulting:** I [work as a consultant](consulting.qmd) in the [Statistical Consulting Group](https://stat.wisc.edu/statistical-consulting-team/) at UW-Madison (formerly the CALS Consulting Lab), assisting clients from life sciences with experimental design and data analysis.
+**Consulting:** I [work as a consultant](consulting.qmd) in the Statistical Consulting Group at UW-Madison (formerly the CALS Consulting Lab), assisting clients from life sciences with experimental design and data analysis. Some of our work has been highlighted in this [article](https://stat.wisc.edu/2025/02/05/on-the-cutting-edge-statistical-consulting-group-enhances-diverse-research-projects-across-uw-madison-campus/).
 
 **Open Source Code**: I have experience writing software [packages](https://github.com/ajinkya-k/flexBCF/tree/bcf_het_u/) and [modules](https://github.com/ajinkya-k/nsyr-matching-testing/) in R/C++. I also occasionally [contribute to open source projects](opensource.qmd) especially in the `Julia` and `R` ecosystems.
 
