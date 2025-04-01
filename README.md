@@ -1,5 +1,3 @@
-# Readme
+# README
 
-This is the code for my website. The URL for the website is [https://ajinkya-k.github.io/](https://ajinkya-k.github.io/).
-
-Uses [Markdeep](https://casual-effects.com/markdeep/). 
+This repo contains the code for my website made using [Quarto](https://quarto.org/). The URL for the website is [https://ajinkya-k.github.io/](https://ajinkya-k.github.io/).

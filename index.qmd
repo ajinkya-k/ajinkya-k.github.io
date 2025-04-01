@@ -1,0 +1,171 @@
+---
+title: "Ajinkya Kokandakar"
+toc: false
+about:
+    id: hero-heading
+    template: trestles
+    image: files/ajinkya.jpg
+    image-width: 15em
+    image-shape: round
+    links:
+    - icon: file-earmark-person
+      text: CV 
+      href: files/cv.pdf
+    - icon: github
+      text: GitHub
+      href: https://github.com/ajinkya-k
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ajinkya-kokandakar/
+    # - icon: goodreads
+    #   text: goodreads
+    #   href: https://www.goodreads.com/user/show/16471733-ajinkya-kokandakar
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=ZVI0G1MAAAAJ&hl=en&oi=sra
+    - text: arXiv
+      href: https://arxiv.org/a/kokandakar_a_1.html
+    - text: ORCiD
+      href: https://orcid.org/0000-0001-6628-2272
+
+format: 
+  html:
+    include-in-header: 
+      text: |
+        <style>
+        h2[data-anchor-id="ajinkya-kokandakar"] {
+          margin-top: -5px;
+          margin-bottom: -5px;
+        }
+        div.quarto-title-meta {
+          grid-template-columns: 1fr !important;
+        }
+        </style>
+---
+:::{#hero-heading}
+
+## Ajinkya Kokandakar
+
+Ph.D. Candidate in Statistics | Statistical Consultant
+<br/>The University of Wisconsin--Madison
+<br/>[ajinkya@stat.wisc.edu](mailto:ajinkya@stat.wisc.edu)
+
+<!-- **Work Experience:** I worked as a Data Science Intern [Mathematica Inc.](https://www.mathematica.org) and as a Statistical Consultant (also part-time) on campus at UW--Madison. -->
+
+**Research:** I am a Ph.D. candidate in Statistics at the UW-Madison advised by [Dr. Sameer Deshpande](https://skdeshpande91.github.io/), pursuing research in causal inference and Bayesian methods.
+Currently, my work focuses on heterogeneous treatment effect estimation, and causal inference when the exposure is not very well defined.
+
+**Consulting:** I [work as a consultant](consulting.qmd) in the Statistical Consulting Group at UW-Madison (formerly the CALS Consulting Lab), assisting clients from life sciences with experimental design and data analysis. Some of our work has been highlighted in this [article](https://stat.wisc.edu/2025/02/05/on-the-cutting-edge-statistical-consulting-group-enhances-diverse-research-projects-across-uw-madison-campus/).
+
+**Open Source Code**: I have experience writing software [packages](https://github.com/ajinkya-k/flexBCF/tree/bcf_het_u/) and [modules](https://github.com/ajinkya-k/nsyr-matching-testing/) in R/C++. I also occasionally [contribute to open source projects](opensource.qmd) especially in the `Julia` and `R` ecosystems.
+
+**Background:** I worked as a Data Scientist intern at [Mathematica Inc](https://www.mathematica.org) from June - Dec 2024.
+Prior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani and worked as a Software Engineer at Infosys Ltd. in India
+:::
+
+<!-- ## Preprints and Working Projects -->
+
+## Publications
+
+
+  <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Dylan Small, Sameer K. Deshpande
+  <br>**Adolescent sports participation and health in early adulthood: An observational study** (2025)
+  <br>_Youth & Society_
+  <!-- <br> arXiv:2405.03538 -->
+  <br>[[paper](https://doi.org/10.1177/0044118X241310245)] [[preprint](https://arxiv.org/abs/2405.03538)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
+
+
+<br />
+Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck, (2024)
+<br>**A Comparison of Regression Methods for Inferring Near-Surface NO2 with Satellite Data**
+<br> _Journal of Geophysical Research: Atmospheres_, 129, e2024JD040906
+<br> [[paper](https://doi.org/10.1029/2024JD040906)] [[preprint](https://doi.org/10.22541/au.171045413.38645578/v1)] 
+
+<br />
+<u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Sameer K. Deshpande, Dylan Small, (2024). 
+<br>**"Pre-analysis protocol for an observational study on the effects of adolescent sports participation on health in early adulthood."** <br>_Observational Studies_ 10(1), 11-35
+    <br> [[paper](https://muse.jhu.edu/pub/56/article/929115)] [[preprint](https://arxiv.org/abs/2211.02104)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
+
+<br />
+<u>Ajinkya H. Kokandakar</u>, Hyunseung Kang, Sameer K. Deshpande, (2023). 
+<br>**"Bayesian causal forests and the 2022 ACIC Data Challenge: scalability and sensitivity."** _Observational Studies,_ 9(3), 29-41. 
+    <br>[[paper](https://muse.jhu.edu/article/895651)] [[preprint](https://arxiv.org/abs/2211.02020)] [[code](https://github.com/skdeshpande91/flexBCF)]
+
+<br />
+Jagat Sesh Challa, Poonam Goyal, <u>Ajinkya Kokandakar</u>, Dhananjay Mantri, Pranet Verma, Sundar Balasubramaniam & Navneet Goyal (2022). <br>**"Anytime clustering of data streams while handling noise and concept drift."**
+<br>_Journal of Experimental & Theoretical Artificial Intelligence,_ 34(3), 399-429. <!-- , DOI: [10.1080/0952813X.2021.1882001](https://doi.org/10.1080/0952813X.2021.1882001) -->
+    <br>[[paper](https://www.tandfonline.com/doi/abs/10.1080/0952813X.2021.1882001)]
+
+## Work Experience
+
+**Mathematica Inc.**
+<br>Data Science Intern (June - Aug 2024 full-time, Aug - Dec 2024 part-time)
+
+- Developing and using Bayesian non-parametric methods for subgroup analysis in a large scale healthcare impact evaluation
+
+**University of Wisconsin -- Madison**
+<br>Project Assistant, [Statistical Consulting Group](https://stat.wisc.edu/statistical-consulting-team/) (Aug 2023 - May 2024)
+
+- Assisted more than 15 clients (graduate students and postdocs) from the College of Agriculture and Life Sciences with experimental design and analysis data obtained from experiments
+
+
+**Infosys Ltd**
+<br> Specialist Programmer (July 2017 - May 2018)
+
+- Designed and developed the telemetry and data analytics module for the company's internal learning platform
+
+## Research Experience
+
+**University of Wisconsin -- Madison**
+<br>Research Assistant
+
+- Department of Statistics,
+    <br>Advisors: [Prof Sameer Deshpande](https://skdeshpande91.github.io/)
+        and [Prof Keith Levin](https://pages.stat.wisc.edu/~kdlevin/) (May 2022 -- Aug 2022)
+- Department of Biostatistics and Medical Informatics,
+    <br>Advisors: [Prof Menggang Yu](https://sites.google.com/a/wisc.edu/menggang/)
+    and [Prof Guanhua Chen](https://biostat.wiscweb.wisc.edu/staff/chen-guanhua/)
+    (June 2020 -- Dec 2021)
+
+**Duke University**
+<br>Research Assistant
+
+- The Fuqua School of Business
+    <br>Advisor: [Prof Giuseppe Lopomo](https://sites.duke.edu/glopomo/) (June 2019 - May 2020)
+- Department of Economics
+    <br>Advisor: [Prof Matt Masten](https://mattmasten.github.io/) (June 2019 - May 2020)
+- Department of Economics
+    <br>Advisor: [Prof Arjada Bardhi](https://www.arjadabardhi.com/) (Jan 2019 - May 2019)
+
+
+**Birla Institute of Technology and Science, Pilani**
+
+- Undergraduate Scholar, 
+    <br>Advisor: [Prof S. Balasubramaniam](https://www.linkedin.com/in/shan-sundar-balasubramaniam-82802317),
+    [ADAPT Lab](https://id.bits-pilani.ac.in/pilani/computerscience/AdvancedDataAnalyticsParallelTechnologiesLaboratory), BITS Pilani 
+    (Jan 2017 - Dec 2017)
+
+
+## Teaching Experience
+
+**University of Wisconsin -- Madison**
+<br>Teaching Assistant, Department of Statistics
+
+- STAT 451: Introduction to Machine Learning and Statistical Pattern Classification ([Fall 2023](https://pages.stat.wisc.edu/~jgillett/451/)) 
+- STAT 240: Data Science Modeling I (Fall 2022) 
+- STAT 371: Introductory Applied Statistics for the Life Sciences (Spring 2022) 
+
+**Duke University**
+<br>Teaching Assistant, Department of Computer Science
+
+- COMPSCI 370: Introduction to Artificial Intelligence ([Spring 2020](https://courses.cs.duke.edu//spring20/compsci370d/index.html)) 
+- COMPSCI 201: Algorithms and Data Structures ([Spring 2019](https://courses.cs.duke.edu/spring19/compsci201))
+
+**Birla Institute of Technology and Science, Pilani**
+<br>Undergraduate Teaching Assistant
+
+- ECON F211: Principles of Economics
+- ECON F212: Fundamentals of Finance and Accounting
+- ECON F412: Securities Analysis and Portfolio Management
+- CS F211: Data Structures and Algorithms
+

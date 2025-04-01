@@ -1,4 +1,10 @@
-_site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+/.quarto/
+*.DS_Store
+.DS_Store
+Makefile
+.vscode/
+docs/
+_freeze/

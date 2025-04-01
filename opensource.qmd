@@ -1,0 +1,17 @@
+---
+title: Open Source Contributions
+page-layout: article
+toc: false
+---
+
+In addition to writing software for my own research, I regularly contribute to open source projects related to statistics, especially in the `Julia` programming language ecosystem.
+So far I have contributed to the following packages: 
+
+- [Julia](https://github.com/JuliaLang/julia/pulls?q=is%3Apr+author%3Aajinkya-k+) language documentation
+- [LinearAlgebra.jl](https://github.com/JuliaLang/LinearAlgebra.jl/pulls?q=is%3Apr+author%3Aajinkya-k+)
+- [Statistics.jl](https://github.com/JuliaStats/Statistics.jl/pulls?q=is:pr+author:ajinkya-k+)
+- [MixedModels.jl](https://github.com/JuliaStats/MixedModels.jl/pulls?q=is:pr+author:ajinkya-k+)
+- [GLM.jl](https://github.com/JuliaStats/GLM.jl/pulls?q=is:pr+author:ajinkya-k+)
+- [PrettyChairmarks.jl](https://github.com/astrozot/PrettyChairmarks.jl/pulls?q=is%3Apr+author%3Aajinkya-k+)
+
+I have also contributed to the `R` language [documentation]((https://github.com/r-devel/r-dev-day/issues/79)) and submitted bug-fixes to other `R` packages (see [1](https://github.com/almost-matching-exactly/MALTS/pulls?q=is%3Apr+author%3Aajinkya-k+), [2](https://github.com/vittorioorlandi/drbart/pulls?q=is%3Apr+author%3Aajinkya-k+)).

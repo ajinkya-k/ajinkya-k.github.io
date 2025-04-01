@@ -1,0 +1,74 @@
+---
+title: "Resources"
+toc: false
+---
+
+
+
+## Library of Explantations
+
+The internet is full of amazing explanations for all sorts of concepts. 
+The following link is a running list of explanations that I found very insightful. 
+Each author is tagged in the explanation and all credit belongs to the author cited. 
+I have tried my best to credit every author for a page, but if I have missed someone: 
+(a) I apologize and 
+(b) let me know so I can correct that.
+
+[Library of Explanations!](https://www.notion.so/ajinkya/865585f2c2e94843a4a530e0bebf0df8?v=4c769956720049dd9d6f688f56bf3e38)
+
+## Explanatory Academic Papers
+
+Below is a list of academic papers that explain some methodology or concept. 
+The purpose of this list to collect papers that helped me understand a topic and may not contain the first paper to come up with an idea.
+
+[List of academic papers](https://ajinkya.notion.site/e8a1847d14614c8da47a4172b2ea1023?v=301472d6c66a4cb697dfe990a84ddb52&pvs=4)
+
+
+
+**Disclaimer:** While visualizations are a good hook for getting people interested in mathematics, they should not be used as the sole learning tool. 
+Do read [this essay](https://j2kun.svbtle.com/why-i-hate-and-love-visualizations-of-mathematics) that talks about the possibilities and limitations of visual explainers. 
+
+## Textbooks and References
+
+The following is a list of textbooks and references that I have found to be helpful, many of which are freely available.
+
+[Freely available](https://www.notion.so/ajinkya/9a488e192044408799336ca138c7f46b?v=fc2215b3b2864ec6a9989b518ebc69bb)
+| [Full List](https://www.notion.so/ajinkya/9a488e192044408799336ca138c7f46b?v=b7ba08f51478448eba5ea7b47c204056)
+
+Understanding linear models, ANOVA and experimental design is really important for statisticians, especially when doing statistical consulting and the most informative books in this reagard are:
+
+-  [ANOVA and Mixed Models](https://people.math.ethz.ch/~meier/teaching/anova/index.html) by Lukas Meier which is freely available
+-  [Applied Linear Statistical Models](https://search.worldcat.org/title/55502728), by Kutner, Nachtsheim, Neter and Li, which I think has the most complete and thorough treatment of ANOVA
+
+## Blogs
+
+Statistics Blogs:
+
+- [Andrew Heiss][ah]
+- [Alex Hayes][apg]
+- [Dan Simpson](https://dansblog.netlify.app) especially this raucously funny post about [gaussian processes][dsgp].
+- [Andrew Gelman et al.](https://statmodeling.stat.columbia.edu/)
+- [Kat Hoffman](https://www.khstats.com/), notably the SuperLearner [explainer](https://www.khstats.com/blog/sl/superlearning/), and the [series on TMLE](https://www.khstats.com/blog/tmle/tutorial/)
+- [Precision Analytics Blog](https://www.precision-analytics.ca/articles/) especially [this really great introduction to INLA](https://www.precision-analytics.ca/articles/a-gentle-inla-tutorial/) by Kathryn Morrison
+- [Our Coding Club](https://ourcodingclub.github.io) has fantastic tutorials on many subjects related to `R` programming and statistics. I personally found the [mixed effects models](https://ourcodingclub.github.io/tutorials/mixed-models/) tutorial really useful
+- [Jesse Sadler](https://www.jessesadler.com) is a historian whose blog has a number of excellent tutorials related to spatial statistics in R and tools for digitial humanities in general
+- [Noah Greifer][ng] is the author of many matching related packages for `R`. He has a very good [explanation of matching weights](https://ngreifer.github.io/blog/matching-weights/) on his blog.
+- [Netflix Technology Blog][nflx], especially the series on sequential A/B testing ([part 1][nflx_1], [part 2][nflx_2])
+
+## Visualizing Measure Theory
+
+The level of abstraction provided by measure theory is the reason why it is a powerful and general tool for proving results in mathematics. 
+However, this abstraction also makes it difficult to understand the concepts in measure theory. The following are a few interactive demos I made for myself to understand measure theory. 
+They are incomplete and I have added little exposition if any. I plan to update them sometime in the future. 
+
+[Convergence of Random Variables demo](https://www.desmos.com/calculator/kj3qg7t5pn)
+<br>[Lebesgue Integral demo](https://www.desmos.com/calculator/kj3qg7t5pn)
+
+
+[ah]: https://www.andrewheiss.com/blog/
+[apg]: https://www.alexpghayes.com/
+[dsgp]: https://dansblog.netlify.app/posts/2021-11-03-yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness/yes-but-what-is-a-gaussian-process-or-once-twice-three-times-a-definition-or-a-descent-into-madness.html
+[ng]: https://ngreifer.github.io/blog/
+[nflx]: https://netflixtechblog.com/
+[nflx_1]: https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df
+[nflx_2]: https://netflixtechblog.com/sequential-testing-keeps-the-world-streaming-netflix-part-2-counting-processes-da6805341642
