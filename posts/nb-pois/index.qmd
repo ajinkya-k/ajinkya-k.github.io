@@ -1,0 +1,98 @@
+---
+title: Poisson as a Limit of the Negative Binomial Distribution
+author:
+  - name: Ajinkya Kokandakar
+    url: https://ajinkya-k.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: University of Wisconsin, Madison
+    affiliation-url: https://www.wisc.edu/
+date: 11-28-2024
+categories: [Negative Binomial, Poisson] # self-defined categories
+citation:
+  url: https://ajinkya-k.github.io/posts/nb-pois
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+bibliography: "../refs.bib"
+engine: julia
+julia:
+  exeflags:
+    - '-tauto'
+    - '--project'
+---
+
+\usepackage{amsmath,amsthm}
+
+## Introduction
+
+John D. Cook has a great sequence of posts[^1] about the Negative Binomial distribution.
+The standard form of the negative binomial has two parameters $r$ and $p$ and has the probability mass function (pmf):
+$$
+  f(y; r, p) = \binom{r + y - 1}{y} \times (1 - p)^{y} \times p^{r}
+$$
+
+This distribution has the mean $\mu = \frac{r(1-p)}{p}$ and variance $\sigma^2 = \frac{r(1-p)}{p^{2}}$.
+Although, $r$ is sometimes interpreted as the "number of successes" that must be reached, the distribution itself can be generalized to non-integer positive values of $r$ by expressing the binomial coefficient in terms of the $\Gamma$ function.
+To see this note that for positive-integer values of $r$:
+$$
+  \binom{r + y - 1}{y} = \frac{(r + y - 1)!}{(r - 1)! \cdot y!} .
+$$
+Since the $\Gamma$ function is the generalization of the factorial we can extend the binomial distribution to non-integer positive $r$ by writing:
+$$
+  f(y;\ r, p) = \frac{\Gamma(r + y)}{\Gamma(r) \cdot y!} \times (1 - p)^{y} \times p^{r} .
+$$
+
+In [his notes][cooknotes], John D. Cook mentions the following result:
+
+**Proposition:** If $r \rightarrow \infty$ and $p \rightarrow 1$ as $\mu$ stays constant, $f(y; r, p)$ converges to a Poisson probability mass function with mean $\mu$.
+
+Let's prove this result.
+But first, we need to be more careful when writing the proposition, more specifically we need to be clear about what it means for $r \rightarrow \infty$ and $p \rightarrow 1$ while $\mu$ is constant.
+To do so, note that the parameter $p = \frac{r}{\mu + r}$.
+Now if we fix $\mu$, as $r \rightarrow \infty$ we have $p \rightarrow 1$. 
+We can now rewrite the pmf in terms of the parameters $r$ and $\mu$ by slightly overloading the notation for the pmf as:
+$$
+  f(y; r, \mu) := f\left(y;\ r, \frac{r}{r + \mu} \right) = \frac{\Gamma(r + y)}{\Gamma(r) \cdot y!} \times \frac{r^r \cdot \mu^y}{(r + \mu)^{y + r}}
+$$
+
+We can now formally write the result we want to prove as follows: 
+
+**Proposition:** For a constant $\mu$ as $r \rightarrow \infty$, $f(y; r, \mu)$ converges to a Poisson probability mass function with mean $\mu$, that is:
+$$
+  \lim_{r \rightarrow \infty} f(y; r, \mu) = \frac{e^{-\mu} \mu^y}{y!}
+$$
+
+
+**Proof:**
+Starting with the reparameterized pmf, multiply and divide by $\theta^{y}$ and rearrange:
+$$
+  f(y; r, \mu) = \frac{\Gamma(r + y)}{\Gamma(r)\cdot r^{r}} \times \left(\frac{r}{r + \mu}\right)^{y + r} \frac{\mu^y}{y!} .
+$$
+Next, since $y$ is a non-negative integer we can use the definition of the $\Gamma$-function to write: $\Gamma(r + y) = \Gamma(r) \times \prod_{j = 1}^{y} (r + j)$.
+Plugging this and again re-arranging terms we get:
+$$
+  f(y; r, \mu) = \prod_{j=1}^{y} \left(1 + \frac{j}{r}\right) \times \left(\frac{1}{1+ \mu / r}\right)^{y} \times \left(\frac{1}{1+ \mu / r}\right)^{r} \times  \frac{\mu^y}{y!} .
+$$
+Now note that $\frac{j}{r} \rightarrow 0$ and $\left(\frac{1}{1+ \mu / r}\right)^{y} \rightarrow 1$ as $r \rightarrow \infty$, so we have:
+$$
+  \lim_{r \rightarrow \infty} f(y; r, \mu)\ =\ \frac{\mu^y}{y!} \times \lim_{r \rightarrow \infty} \left(\frac{1}{1+ \mu / r}\right)^{r} .
+$$
+The last bit is easy once we note that:
+$$
+\begin{aligned}
+  \lim_{r \rightarrow \infty} \left(\frac{1}{1+ \mu / r}\right)^{r}\ &=\
+      \lim_{r \rightarrow \infty} \left(1 + \frac{\mu}{r}\right)^{-r}\\
+      &=\ \left[\lim_{r \rightarrow \infty} \left(1 + \frac{\mu}{r}\right)^{r/\mu}\right]^{-\mu}\\
+      &=\ e^{-\mu} .
+\end{aligned}
+$$
+
+Putting all of this together, we have:
+$$
+  \lim_{r \rightarrow \infty} f(y; r, \mu)\ =\ \frac{e^{-\mu} \cdot \mu^y}{y!}.
+$$
+
+https://timothy-barry.github.io/posts/2020-06-16-gamma-poisson-nb/
+
+[^1]: [Three views of the negative binomial distribution](https://www.johndcook.com/blog/2009/09/22/negative-binomial-distribution/) and [Yet another view of the negative binomial distribution](https://www.johndcook.com/blog/2009/11/03/negative-binomial-poisson-gamma/)
+
+
+[cooknotes]: https://www.johndcook.com/negative_binomial.pdf

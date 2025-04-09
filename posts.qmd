@@ -1,0 +1,14 @@
+---
+title: "Blog posts"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, subtitle, description, reading-time]
+page-layout: full
+title-block-banner: false
+date-modified: "2024-04-06"
+execute:
+  include: false
+---
