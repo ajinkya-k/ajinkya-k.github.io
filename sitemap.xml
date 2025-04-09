@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ajinkya-k.github.io/funstuff.html</loc>
-    <lastmod>2025-03-21T14:50:33.525Z</lastmod>
+    <lastmod>2025-04-01T14:34:36.666Z</lastmod>
   </url>
   <url>
-    <loc>https://ajinkya-k.github.io/libexp.html</loc>
-    <lastmod>2025-03-21T14:50:33.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ajinkya-k.github.io/consulting.html</loc>
-    <lastmod>2025-03-25T19:49:59.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ajinkya-k.github.io/hidden.html</loc>
-    <lastmod>2025-03-21T14:50:33.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ajinkya-k.github.io/hidden/2024-11-28-allocations-runtime/index.html</loc>
-    <lastmod>2025-03-21T14:50:33.530Z</lastmod>
+    <loc>https://ajinkya-k.github.io/posts.html</loc>
+    <lastmod>2025-04-09T04:27:59.483Z</lastmod>
   </url>
   <url>
     <loc>https://ajinkya-k.github.io/index.html</loc>
-    <lastmod>2025-03-25T19:50:22.424Z</lastmod>
+    <lastmod>2025-04-01T14:34:36.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajinkya-k.github.io/hidden/2024-11-28-allocations-runtime/index.html</loc>
+    <lastmod>2025-04-01T14:34:36.668Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajinkya-k.github.io/consulting.html</loc>
+    <lastmod>2025-04-01T14:34:36.653Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajinkya-k.github.io/hidden.html</loc>
+    <lastmod>2025-04-01T14:34:36.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajinkya-k.github.io/posts/nb-pois/index.html</loc>
+    <lastmod>2025-04-09T21:01:23.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ajinkya-k.github.io/libexp.html</loc>
+    <lastmod>2025-04-01T14:34:36.669Z</lastmod>
   </url>
   <url>
     <loc>https://ajinkya-k.github.io/opensource.html</loc>
-    <lastmod>2025-04-01T14:29:14.050Z</lastmod>
+    <lastmod>2025-04-01T14:34:36.669Z</lastmod>
   </url>
 </urlset>
