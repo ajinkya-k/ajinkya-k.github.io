@@ -55,11 +55,16 @@ $$
 
 We can now formally write the result we want to prove as follows:
 
-**Proposition:** For a constant $\mu$ as $r \rightarrow \infty$, $f(y; r, \mu)$ converges to a Poisson probability mass function with mean $\mu$, that is:
+::: {.callout-note icon="false"}
+
+## Proposition
+
+For a constant $\mu$ as $r \rightarrow \infty$, $f(y; r, \mu)$ converges to a Poisson probability mass function with mean $\mu$, that is:
 $$
   \lim_{r \rightarrow \infty} f(y; r, \mu) = \frac{e^{-\mu} \mu^y}{y!}
 $$
 
+:::
 
 **Proof:**
 Starting with the reparameterized pmf, multiply and divide by $r^{y}$ and rearrange:
