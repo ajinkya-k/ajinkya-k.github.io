@@ -356,25 +356,25 @@ window.Quarto = {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>John D. Cook has a great sequence of posts<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> about the Negative Binomial distribution. The standard form of the negative binomial has two parameters <span class="math inline">\(r\)</span> and <span class="math inline">\(p\)</span> and has the probability mass function (pmf): <span class="math display">\[
+<p>John D. Cook has a great sequence of posts<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> about the negative binomial distribution. The standard form of the negative binomial distribution has two parameters, <span class="math inline">\(r\)</span> and <span class="math inline">\(p\)</span>, and has a probability mass function (pmf) given by: <span class="math display">\[
   f(y; r, p) = \binom{r + y - 1}{y} \times (1 - p)^{y} \times p^{r}
 \]</span></p>
-<p>This distribution has the mean <span class="math inline">\(\mu = \frac{r(1-p)}{p}\)</span> and variance <span class="math inline">\(\sigma^2 = \frac{r(1-p)}{p^{2}}\)</span>. Although, <span class="math inline">\(r\)</span> is sometimes interpreted as the “number of successes” that must be reached, the distribution itself can be generalized to non-integer positive values of <span class="math inline">\(r\)</span> by expressing the binomial coefficient in terms of the <span class="math inline">\(\Gamma\)</span> function. To see this note that for positive-integer values of <span class="math inline">\(r\)</span>: <span class="math display">\[
+<p>This distribution has mean <span class="math inline">\(\mu = \frac{r(1-p)}{p}\)</span> and variance <span class="math inline">\(\sigma^2 = \frac{r(1-p)}{p^{2}}\)</span>. Although <span class="math inline">\(r\)</span> is sometimes interpreted as the “number of successes” that must be reached, the distribution can be generalized to noninteger positive values of <span class="math inline">\(r\)</span> by expressing the binomial coefficient in terms of the <span class="math inline">\(\Gamma\)</span> function. To see this, note that for positive-integer values of <span class="math inline">\(r\)</span>: <span class="math display">\[
   \binom{r + y - 1}{y} = \frac{(r + y - 1)!}{(r - 1)! \cdot y!} .
-\]</span> Since the <span class="math inline">\(\Gamma\)</span> function is the generalization of the factorial we can extend the binomial distribution to non-integer positive <span class="math inline">\(r\)</span> by writing: <span class="math display">\[
+\]</span> Since the <span class="math inline">\(\Gamma\)</span> function is the generalization of the factorial function, we can extend the binomial distribution to noninteger positive <span class="math inline">\(r\)</span> by writing: <span class="math display">\[
   f(y;\ r, p) = \frac{\Gamma(r + y)}{\Gamma(r) \cdot y!} \times (1 - p)^{y} \times p^{r} .
 \]</span></p>
 <p>In <a href="https://www.johndcook.com/negative_binomial.pdf">his notes</a>, John D. Cook mentions the following result:</p>
 <p><strong>Proposition:</strong> If <span class="math inline">\(r \rightarrow \infty\)</span> and <span class="math inline">\(p \rightarrow 1\)</span> as <span class="math inline">\(\mu\)</span> stays constant, <span class="math inline">\(f(y; r, p)\)</span> converges to a Poisson probability mass function with mean <span class="math inline">\(\mu\)</span>.</p>
-<p>Let’s prove this result. But first, we need to be more careful when writing the proposition, more specifically we need to be clear about what it means for <span class="math inline">\(r \rightarrow \infty\)</span> and <span class="math inline">\(p \rightarrow 1\)</span> while <span class="math inline">\(\mu\)</span> is constant. To do so, note that the parameter <span class="math inline">\(p = \frac{r}{\mu + r}\)</span>. Now if we fix <span class="math inline">\(\mu\)</span>, as <span class="math inline">\(r \rightarrow \infty\)</span> we have <span class="math inline">\(p \rightarrow 1\)</span>. We can now rewrite the pmf in terms of the parameters <span class="math inline">\(r\)</span> and <span class="math inline">\(\mu\)</span> by slightly overloading the notation for the pmf as: <span class="math display">\[
+<p>Let’s prove this result. But first, we need to be more careful when writing the proposition; more specifically we need to be clear about what it means for <span class="math inline">\(r \rightarrow \infty\)</span> and <span class="math inline">\(p \rightarrow 1\)</span> while <span class="math inline">\(\mu\)</span> is constant. To do so, note that the parameter <span class="math inline">\(p = \frac{r}{\mu + r}\)</span>. Now if we fix <span class="math inline">\(\mu\)</span>, as <span class="math inline">\(r \rightarrow \infty\)</span> we have <span class="math inline">\(p \rightarrow 1\)</span>. We can now rewrite the pmf in terms of the parameters <span class="math inline">\(r\)</span> and <span class="math inline">\(\mu\)</span> by slightly overloading the notation for the pmf as: <span class="math display">\[
   f(y; r, \mu) := f\left(y;\ r, \frac{r}{r + \mu} \right) = \frac{\Gamma(r + y)}{\Gamma(r) \cdot y!} \times \frac{r^r \cdot \mu^y}{(r + \mu)^{y + r}}
 \]</span></p>
 <p>We can now formally write the result we want to prove as follows:</p>
 <p><strong>Proposition:</strong> For a constant <span class="math inline">\(\mu\)</span> as <span class="math inline">\(r \rightarrow \infty\)</span>, <span class="math inline">\(f(y; r, \mu)\)</span> converges to a Poisson probability mass function with mean <span class="math inline">\(\mu\)</span>, that is: <span class="math display">\[
   \lim_{r \rightarrow \infty} f(y; r, \mu) = \frac{e^{-\mu} \mu^y}{y!}
 \]</span></p>
-<p><strong>Proof:</strong> Starting with the reparameterized pmf, multiply and divide by <span class="math inline">\(\theta^{y}\)</span> and rearrange: <span class="math display">\[
-  f(y; r, \mu) = \frac{\Gamma(r + y)}{\Gamma(r)\cdot r^{r}} \times \left(\frac{r}{r + \mu}\right)^{y + r} \frac{\mu^y}{y!} .
+<p><strong>Proof:</strong> Starting with the reparameterized pmf, multiply and divide by <span class="math inline">\(r^{y}\)</span> and rearrange: <span class="math display">\[
+  f(y; r, \mu) = \frac{\Gamma(r + y)}{\Gamma(r)\cdot r^{y}} \times \left(\frac{r}{r + \mu}\right)^{y + r} \frac{\mu^y}{y!} .
 \]</span> Next, since <span class="math inline">\(y\)</span> is a non-negative integer we can use the definition of the <span class="math inline">\(\Gamma\)</span>-function to write: <span class="math inline">\(\Gamma(r + y) = \Gamma(r) \times \prod_{j = 1}^{y} (r + j)\)</span>. Plugging this and again re-arranging terms we get: <span class="math display">\[
   f(y; r, \mu) = \prod_{j=1}^{y} \left(1 + \frac{j}{r}\right) \times \left(\frac{1}{1+ \mu / r}\right)^{y} \times \left(\frac{1}{1+ \mu / r}\right)^{r} \times  \frac{\mu^y}{y!} .
 \]</span> Now note that <span class="math inline">\(\frac{j}{r} \rightarrow 0\)</span> and <span class="math inline">\(\left(\frac{1}{1+ \mu / r}\right)^{y} \rightarrow 1\)</span> as <span class="math inline">\(r \rightarrow \infty\)</span>, so we have: <span class="math display">\[
@@ -390,7 +390,7 @@ window.Quarto = {
 <p>Putting all of this together, we have: <span class="math display">\[
   \lim_{r \rightarrow \infty} f(y; r, \mu)\ =\ \frac{e^{-\mu} \cdot \mu^y}{y!}.
 \]</span></p>
-<p>https://timothy-barry.github.io/posts/2020-06-16-gamma-poisson-nb/</p>
+<!-- https://timothy-barry.github.io/posts/2020-06-16-gamma-poisson-nb/ -->
 
 
 </section>
