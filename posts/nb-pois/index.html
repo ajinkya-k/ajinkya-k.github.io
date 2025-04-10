@@ -370,9 +370,21 @@ window.Quarto = {
   f(y; r, \mu) := f\left(y;\ r, \frac{r}{r + \mu} \right) = \frac{\Gamma(r + y)}{\Gamma(r) \cdot y!} \times \frac{r^r \cdot \mu^y}{(r + \mu)^{y + r}}
 \]</span></p>
 <p>We can now formally write the result we want to prove as follows:</p>
-<p><strong>Proposition:</strong> For a constant <span class="math inline">\(\mu\)</span> as <span class="math inline">\(r \rightarrow \infty\)</span>, <span class="math inline">\(f(y; r, \mu)\)</span> converges to a Poisson probability mass function with mean <span class="math inline">\(\mu\)</span>, that is: <span class="math display">\[
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Proposition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For a constant <span class="math inline">\(\mu\)</span> as <span class="math inline">\(r \rightarrow \infty\)</span>, <span class="math inline">\(f(y; r, \mu)\)</span> converges to a Poisson probability mass function with mean <span class="math inline">\(\mu\)</span>, that is: <span class="math display">\[
   \lim_{r \rightarrow \infty} f(y; r, \mu) = \frac{e^{-\mu} \mu^y}{y!}
 \]</span></p>
+</div>
+</div>
 <p><strong>Proof:</strong> Starting with the reparameterized pmf, multiply and divide by <span class="math inline">\(r^{y}\)</span> and rearrange: <span class="math display">\[
   f(y; r, \mu) = \frac{\Gamma(r + y)}{\Gamma(r)\cdot r^{y}} \times \left(\frac{r}{r + \mu}\right)^{y + r} \frac{\mu^y}{y!} .
 \]</span> Next, since <span class="math inline">\(y\)</span> is a non-negative integer we can use the definition of the <span class="math inline">\(\Gamma\)</span>-function to write: <span class="math inline">\(\Gamma(r + y) = \Gamma(r) \times \prod_{j = 1}^{y} (r + j)\)</span>. Plugging this and again re-arranging terms we get: <span class="math display">\[
