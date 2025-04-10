@@ -95,9 +95,16 @@ $$
   \lim_{r \rightarrow \infty} f(y; r, \mu)\ =\ \frac{e^{-\mu} \cdot \mu^y}{y!}.
 $$
 
+### Acknowledgements
+
+Thanks to [Steven Moen][steven-website], [Margaret Turner][margaret-website], and [Sam Ozminkowski][sam-website] for suggestions and edits.
+
 <!-- https://timothy-barry.github.io/posts/2020-06-16-gamma-poisson-nb/ -->
 
 [^1]: [Three views of the negative binomial distribution](https://www.johndcook.com/blog/2009/09/22/negative-binomial-distribution/) and [Yet another view of the negative binomial distribution](https://www.johndcook.com/blog/2009/11/03/negative-binomial-poisson-gamma/)
 
 
 [cooknotes]: https://www.johndcook.com/negative_binomial.pdf
+[sam-website]: https://samozminkowski.com
+[steven-website]: https://www.linkedin.com/in/steven-moen/
+[margaret-website]: https://www.linkedin.com/in/margaret-l-turner/
