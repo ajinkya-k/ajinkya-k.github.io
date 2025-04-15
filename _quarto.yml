@@ -30,9 +30,11 @@ website:
         href: mailto:ajinkya@stat.wisc.edu
       - file: opensource.qmd
         text: Code
+      - file: posts/index.qmd
+        text: Posts
     collapse: true
   page-footer:
-    left: 
+    left:
       - text: "Based on the Ember theme from Alex Hayes's website"
         href: https://www.alexpghayes.com/
     center:

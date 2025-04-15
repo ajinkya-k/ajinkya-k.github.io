@@ -95,6 +95,17 @@ $$
   \lim_{r \rightarrow \infty} f(y; r, \mu)\ =\ \frac{e^{-\mu} \cdot \mu^y}{y!}.
 $$
 
+@fig-limit shows the negative binomial pmf (in black) with increasing $r$, and the Poisson pmf in blue.
+We can clearly see the negative binomial pmf resembles the poisson more and more as $r$ increases.
+
+::: {#fig-limit}
+
+{{< video anim.mp4 >}}
+
+Negative binomial pmf (black) approaches the Poisson pmf (blue) as $r$ increases.
+
+:::
+
 ### Acknowledgements
 
 Thanks to [Steven Moen][steven-website], [Margaret Turner][margaret-website], and [Sam Ozminkowski][sam-website] for suggestions and edits.
