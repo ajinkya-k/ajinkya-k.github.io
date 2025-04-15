@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/nb-pois/index.html"
-    ]
-  },
-  {
     "listing": "/hidden.html",
     "items": [
       "/hidden/2024-11-28-allocations-runtime/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/nb-pois/index.html"
     ]
   }
 ]
