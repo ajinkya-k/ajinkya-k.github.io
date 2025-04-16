@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -442,7 +462,7 @@ Proposition
 <p>Putting all of this together, we have: <span class="math display">\[
   \lim_{r \rightarrow \infty} f(y; r, \mu)\ =\ \frac{e^{-\mu} \cdot \mu^y}{y!}.
 \]</span></p>
-<p><a href="#fig-limit" class="quarto-xref">Figure&nbsp;1</a> shows the negative binomial pmf (in black) with increasing <span class="math inline">\(r\)</span>, and the Poisson pmf in blue. We can clearly see the negative binomial pmf resembles the poisson more and more as <span class="math inline">\(r\)</span> increases.</p>
+<p><a href="#fig-limit" class="quarto-xref">Figure&nbsp;1</a> shows the negative binomial pmf (in black) with increasing <span class="math inline">\(r\)</span>, and the Poisson pmf in blue. We can clearly see the negative binomial pmf resembles the poisson more and more as <span class="math inline">\(r\)</span> increases. The animation was created using the excellent <code>Julia</code> packages <a href="https://docs.makie.org/v0.22/"><code>Makie.jl</code></a> and <a href="https://aog.makie.org/v0.10.3/"><code>AlgebraOfGraphics.jl</code></a>, see <span class="citation" data-cites="DanischKrumbiegel2021">Danisch and Krumbiegel (<a href="#ref-DanischKrumbiegel2021" role="doc-biblioref">2021</a>)</span>.</p>
 <div id="fig-limit" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-limit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -459,11 +479,16 @@ Figure&nbsp;1: Negative binomial pmf (black) approaches the Poisson pmf (blue) a
 <!-- https://timothy-barry.github.io/posts/2020-06-16-gamma-poisson-nb/ -->
 
 
+
 </section>
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-DanischKrumbiegel2021" class="csl-entry" role="listitem">
+Danisch, Simon, and Julius Krumbiegel. 2021. <span>“<span class="nocase">Makie.jl</span>: Flexible High-Performance Data Visualization for <span>Julia</span>.”</span> <em>Journal of Open Source Software</em> 6 (65): 3349. <a href="https://doi.org/10.21105/joss.03349">https://doi.org/10.21105/joss.03349</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p><a href="https://www.johndcook.com/blog/2009/09/22/negative-binomial-distribution/">Three views of the negative binomial distribution</a> and <a href="https://www.johndcook.com/blog/2009/11/03/negative-binomial-poisson-gamma/">Yet another view of the negative binomial distribution</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
