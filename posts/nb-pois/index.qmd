@@ -6,7 +6,8 @@ author:
     orcid: 0000-0002-5300-3075
     affiliation: University of Wisconsin, Madison
     affiliation-url: https://www.wisc.edu/
-date: 11-28-2024
+date: 04/15/2025
+date-format: long
 categories: [Negative Binomial, Poisson] # self-defined categories
 citation:
   url: https://ajinkya-k.github.io/posts/nb-pois
