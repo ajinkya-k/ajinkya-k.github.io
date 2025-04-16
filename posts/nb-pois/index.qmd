@@ -98,6 +98,7 @@ $$
 
 @fig-limit shows the negative binomial pmf (in black) with increasing $r$, and the Poisson pmf in blue.
 We can clearly see the negative binomial pmf resembles the poisson more and more as $r$ increases.
+The animation was created using the excellent `Julia` packages [`Makie.jl`](https://docs.makie.org/v0.22/) and [`AlgebraOfGraphics.jl`](https://aog.makie.org/v0.10.3/), see @DanischKrumbiegel2021.
 
 ::: {#fig-limit}
 
