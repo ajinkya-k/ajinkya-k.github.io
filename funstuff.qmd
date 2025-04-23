@@ -26,12 +26,12 @@ A sample of some great podcasts:
     by the incredible [John Green](https://www.johngreenbooks.com/): 
     <br>This is my favorite podcast, by a country mile!
 
-- [Grand Tamasha](http://www.grandtamasha.com) 
+- [Grand Tamasha](https://www.grandtamasha.com) 
     hosted by [Milan Vaishnav](https://carnegieendowment.org/experts/714):
     <br> Discusses the latest developments in Indian politics, economics, foreign policy, society, and culture for a global audience
 
 - [Ideas of India](https://www.discoursemagazine.com/tag/ideas-of-india-podcast/)
-    by [Shruti Rajagopalan](http://shrutiraj.com/):
+    by [Shruti Rajagopalan](https://shrutiraj.com/):
     <br>Economis Shruti Rajagopalan examines the ideas that will propel India forward, via conversations with researchers and top thinkers in social science and beyond.
 
 <!--
