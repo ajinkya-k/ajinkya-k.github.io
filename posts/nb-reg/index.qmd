@@ -1,0 +1,46 @@
+---
+title: How does Negative Binomial Regression Really Work?
+author:
+  - name: Ajinkya Kokandakar
+    url: https://ajinkya-k.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: University of Wisconsin, Madison
+    affiliation-url: https://www.wisc.edu/
+date: 04/15/2025
+date-format: long
+categories: [Negative Binomial, Poisson] # self-defined categories
+citation:
+  url: https://ajinkya-k.github.io/posts/nb-pois
+draft: true # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+draft-mode: unlinked
+bibliography: "../refs.bib"
+engine: julia
+julia:
+  exeflags:
+    - '-tauto'
+    - '--project'
+---
+
+\usepackage{amsmath,amsthm}
+
+## Introduction
+
+In this post I will explore how count data are modeled using negative binomial regression.
+It all started when I tried to understand how differential gene expression is modeled in the `R` package `DESeq2`.
+Long story short, it uses negative binomial regression to model gene expression counts.
+I fell into a negative binomial regression rabbit hole so now you have to hear (err, read) about it!
+
+
+## When to use negative binomial regression?
+
+Negative binomial regression to model count data, that is when the response variable takes non-negative integer values.
+When modeling count data it is common to start with a Poisson generalized linear model (GLM).
+However, sometimes the variance in the response is not underestimated by the Poisson regression model.
+This happens because the variance of the Poisson distribution is equal to its mean, but count data frequently exhibit larger variation than can be explained using Poisson regression.
+This phenomenon is called overdispersion.
+Negative binomial models are useful to model such overdispersed data.
+
+## Negative binomial "GLM"
+
+
+[testlink](../../posts/)
