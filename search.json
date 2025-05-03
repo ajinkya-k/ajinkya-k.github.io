@@ -158,6 +158,6 @@
     "href": "opensource.html",
     "title": "Open Source Contributions",
     "section": "",
-    "text": "In addition to writing software for my own research, I regularly contribute to open source projects related to statistics, especially in the Julia programming language ecosystem. So far I have contributed to the following packages:\n\nJulia language documentation\nLinearAlgebra.jl\nStatistics.jl\nMixedModels.jl\nGLM.jl\nPrettyChairmarks.jl\n\nI have also contributed to the R language documentation and submitted bug-fixes to other R packages (see 1, 2)."
+    "text": "In addition to writing software for my own research, I regularly contribute to open source projects related to statistics, especially in the Julia programming language ecosystem. So far I have contributed to the following packages:\n\nJulia language documentation\nLinearAlgebra.jl\nStatistics.jl\nMixedModels.jl\nGLM.jl\nPrettyChairmarks.jl\n\nI have also contributed to the R language documentation and submitted bug-fixes to other R packages (see 1, 2).\nAll GitHub PRs here."
   }
 ]
