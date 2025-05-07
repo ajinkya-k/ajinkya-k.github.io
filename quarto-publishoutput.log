@@ -1,0 +1,14 @@
+Preparing worktree (resetting branch 'gh-pages'; was at 057579e)
+branch 'gh-pages' set up to track 'origin/gh-pages'.
+HEAD is now at 057579e Built site for gh-pages
+[gh-pages 92c817d] Built site for gh-pages
+ 20 files changed, 89 insertions(+), 93 deletions(-)
+ delete mode 100644 posts/nb-pois/nb-pois-fig.jpg
+ rename site_libs/bootstrap/{bootstrap-dark-639eafb0fe5e03705fd14968edcdd654.min.css => bootstrap-dark-5ac3c67d58c9148b334d1147fd1363ae.min.css} (89%)
+ rename site_libs/bootstrap/{bootstrap-faa454ed2b4534365d975d34c96b8e39.min.css => bootstrap-f8fbd1bd4a83158c1b867a8e856dcc79.min.css} (89%)
+ rename site_libs/quarto-html/{quarto-syntax-highlighting-7edfaf1c48232bdc7da6ab4de57864f3.css => quarto-syntax-highlighting-187ef789a05bc28d59cc21b6852395dc.css} (98%)
+ rename site_libs/quarto-html/{quarto-syntax-highlighting-dark-87df8fec1bdee35d3cda9b8a639ae1cd.css => quarto-syntax-highlighting-dark-896cffc80b0b66abc2623772fb12c181.css} (98%)
+origin  https://github.com/ajinkya-k/ajinkya-k.github.io (fetch)
+origin  https://github.com/ajinkya-k/ajinkya-k.github.io (push)
+To https://github.com/ajinkya-k/ajinkya-k.github.io
+   057579e..92c817d  HEAD -> gh-pages
