@@ -46,8 +46,8 @@ website:
 format:
   html:
     theme:
-      light: [litera, ember.scss, stylesv.scss]
-      dark: [litera, stylesv.scss, theme-dark.scss, ember.scss]
+      light: [cosmo, stylesv.scss] # old [litera, ember.scss, stylesv.scss]
+      dark: [cosmo, stylesv.scss, theme-dark.scss] # # old [litera, ember.scss, theme-darl.scss, stylesv.scss]
     css: styles.css
     toc: true
     anchor-sections: true
