@@ -7,7 +7,7 @@ project:
     - "_extensions/*"
     - "_extensions/quarto-ext/fontawesome/"
 
-date2: Feb 7, 2025
+date2: May 19, 2025
 
 website:
   title: "Ajinkya Kokandakar"
@@ -17,7 +17,7 @@ website:
       - file: index.qmd
         text: Home
       - text: Papers
-        href: index.qmd#preprints-and-working-projects
+        href: index.qmd#publications
       - text: CV
         file: files/cv.pdf
       - file: libexp.qmd
