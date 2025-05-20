@@ -67,7 +67,7 @@ Prior to joining UW—Madison, I graduated with a MS in Economics and Computatio
 
 ## Publications and Pre-prints {#publications}
 
-Douglas M. Bates, Phillip M. Alday, and <u>Ajinkya H. Kokandakar</u>
+Douglas Bates, Phillip M. Alday, and <u>Ajinkya H. Kokandakar</u>
   <br>**Mixed-model Log-likelihood Evaluation Via a Blocked Cholesky Factorization** (2025)
   <!-- <br> arXiv:2405.03538 -->
   <nr> arXiv:2505.11674
