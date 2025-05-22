@@ -57,7 +57,9 @@ Currently, my work focuses on heterogeneous treatment effect estimation, and cau
 
 **Consulting:** I [work as a consultant](consulting.qmd) in the Statistical Consulting Group at UW-Madison (formerly the CALS Consulting Lab), assisting clients from life sciences with experimental design and data analysis. Some of our work has been highlighted in this [article](https://stat.wisc.edu/2025/02/05/on-the-cutting-edge-statistical-consulting-group-enhances-diverse-research-projects-across-uw-madison-campus/).
 
-**Open Source Code**: I have experience writing software [packages](https://github.com/ajinkya-k/flexBCF/tree/bcf_het_u/) and [modules](https://github.com/ajinkya-k/nsyr-matching-testing/) in R/C++. I also occasionally [contribute to open source projects](opensource.qmd) especially in the `Julia` and `R` ecosystems.
+**Open Source Code**: I have experience writing software [packages](https://github.com/ajinkya-k/flexBCF/tree/bcf_het_u/) and [modules](https://github.com/ajinkya-k/nsyr-matching-testing/) in R/C++. I [contribute to open source projects](opensource.qmd) especially in the `Julia` and (ocassionally) `R` ecosystems.
+I also dabble in Rust programming.
+
 
 **Background:** I worked as a Data Scientist intern at [Mathematica Inc](https://www.mathematica.org) from June - Dec 2024.
 Prior to joining UW—Madison, I graduated with a MS in Economics and Computation at Duke University (2020). I got my undergraduate dual-degree in Computer Science and Economics from Birla Institute of Technology and Science, Pilani and worked as a Software Engineer at Infosys Ltd. in India

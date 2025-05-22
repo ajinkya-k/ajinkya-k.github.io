@@ -4,6 +4,7 @@ page-layout: article
 toc: false
 ---
 
+## Statistics related open source code
 In addition to writing software for my own research, I regularly contribute to open source projects related to statistics, especially in the `Julia` programming language ecosystem.
 So far I have contributed to the following packages:
 
@@ -17,3 +18,10 @@ So far I have contributed to the following packages:
 I have also contributed to the `R` language [documentation](https://github.com/r-devel/r-dev-day/issues/79) and submitted bug-fixes to other `R` packages (see [1](https://github.com/almost-matching-exactly/MALTS/pulls?q=is%3Apr+author%3Aajinkya-k+), [2](https://github.com/vittorioorlandi/drbart/pulls?q=is%3Apr+author%3Aajinkya-k+)).
 
 All GitHub PRs [here](https://github.com/search?q=author%3Aajinkya-k+&type=pullrequests&s=created&o=desc).
+
+
+## Rust projects
+
+- [`latex-clean-rs`](https://github.com/ajinkya-k/latex-clean-rs): a command line tool to clean (la)tex-generated auxiliary files
+- [`branchtransfer`](https://github.com/ajinkya-k/branchtransfer): a command line tool to transfer files from a git repo's working directory to another branch
+- [`pretty-speedtest-rs`](https://github.com/ajinkya-k/pretty-speedtest-rs) which is basically just a fork of [speedtest-rs](https://github.com/nelsonjchen/speedtest-rs)
