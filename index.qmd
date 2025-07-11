@@ -72,17 +72,16 @@ Prior to joining UW—Madison, I graduated with a MS in Economics and Computatio
 Douglas Bates, Phillip M. Alday, and <u>Ajinkya H. Kokandakar</u>
   <br>**Mixed-model Log-likelihood Evaluation Via a Blocked Cholesky Factorization** (2025)
   <!-- <br> arXiv:2405.03538 -->
-  <nr> arXiv:2505.11674
+  <br> arXiv:2505.11674
   <br>[[preprint](https://arxiv.org/abs/2505.11674)] [[replication material](https://github.com/JuliaMixedModels/Manuscripts/tree/main/blockedcholesky)]
 
   <br />
 
   <u>Ajinkya H. Kokandakar</u>, Yuzhou Lin, Steven Jin, Jordan Weiss, Amanda R. Rabinowitz, Reuben A. Buford May, Dylan Small, Sameer K. Deshpande
   <br>**Adolescent sports participation and health in early adulthood: An observational study** (2025)
-  <br>_Youth & Society_
+  <br>_Youth & Society_, 57(5), 830-851
   <!-- <br> arXiv:2405.03538 -->
   <br>[[paper](https://doi.org/10.1177/0044118X241310245)] [[preprint](https://arxiv.org/abs/2405.03538)] [[code](https://github.com/ajinkya-k/nsyr-matching-testing)]
-
 
 <br />
 Eliot J. Kim, Tracey Holloway, <u>Ajinkya H. Kokandakar</u>, Monica Harkey, Stephanie Elkins, Daniel L. Goldberg, Colleen Heck, (2024)
