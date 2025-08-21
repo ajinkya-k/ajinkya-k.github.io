@@ -8,6 +8,7 @@ toc: false
 In addition to writing software for my own research, I regularly contribute to open source projects related to statistics, especially in the `Julia` programming language ecosystem.
 So far I have contributed to the following packages:
 
+- [CodeSource.jl](https://github.com/ajinkya-k/CodeSource.jl) which I maintain
 - [Julia](https://github.com/JuliaLang/julia/pulls?q=is%3Apr+author%3Aajinkya-k+) language documentation
 - [LinearAlgebra.jl](https://github.com/JuliaLang/LinearAlgebra.jl/pulls?q=is%3Apr+author%3Aajinkya-k+)
 - [Statistics.jl](https://github.com/JuliaStats/Statistics.jl/pulls?q=is:pr+author:ajinkya-k+)
@@ -22,6 +23,11 @@ All GitHub PRs [here](https://github.com/search?q=author%3Aajinkya-k+&type=pullr
 
 ## Rust projects
 
-- [`latex-clean-rs`](https://github.com/ajinkya-k/latex-clean-rs): a command line tool to clean (la)tex-generated auxiliary files
-- [`branchtransfer`](https://github.com/ajinkya-k/branchtransfer): a command line tool to transfer files from a git repo's working directory to another branch
+I also sometimes experiment with `Rust`.
+I have worked on the following applications written in `Rust`:
+
+- [`latex-clean-rs`](https://crates.io/crates/texclean-rs): a command line tool to clean (La)TeX-generated auxiliary files ([source](https://github.com/ajinkya-k/latex-clean-rs)).
+- [`branchtransfer`](https://crates.io/crates/branchtransfer): a command line tool to copy files from a git repo's working directory to another branch ([source](https://github.com/ajinkya-k/branchtransfer)).
 - [`pretty-speedtest-rs`](https://github.com/ajinkya-k/pretty-speedtest-rs) which is basically just a fork of [speedtest-rs](https://github.com/nelsonjchen/speedtest-rs)
+
+I have also made minor contributions to the [`rio terminal`](https://rioterm.com) and [`tabiew`](https://github.com/shshemi/tabiew)
